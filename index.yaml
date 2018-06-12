@@ -1,9 +1,38 @@
 apiVersion: v1
 entries:
+  cloudlaunch:
+  - appVersion: 2.0.2
+    created: 2018-06-13T01:21:22.205549318+05:30
+    description: A Helm chart for CloudLaunch, including the server and web UI
+    digest: ab787c989b6825c8fc5a550115fdc1bd6a99425dfa357a51a769650c4a6e36e9
+    home: http://cloudlaunch.cloudve.org/
+    name: cloudlaunch
+    urls:
+    - https://github.com/CloudVE/helm-charts/raw/master/charts/cloudlaunch-0.1.0.tgz
+    version: 0.1.0
+  cloudlaunch-server:
+  - appVersion: 2.0.2
+    created: 2018-06-13T01:21:22.210338266+05:30
+    description: A Helm chart for the CloudLaunch server/api component
+    digest: ff8bcd6ff51220b61da506e85a94947399090f7c2d279f0a29892ac4a1182844
+    home: http://cloudlaunch.cloudve.org/
+    name: cloudlaunch-server
+    urls:
+    - https://github.com/CloudVE/helm-charts/raw/master/charts/cloudlaunch-server-0.1.0.tgz
+    version: 0.1.0
+  cloudman:
+  - appVersion: 2.0.0
+    created: 2018-06-13T01:21:22.214140695+05:30
+    description: A CloudMan Helm chart for Kubernetes
+    digest: e72755a60adaffd2ce180b7bef6a31eb54efa0d33ae4d24fac412687c2046840
+    name: cloudman
+    urls:
+    - https://github.com/CloudVE/helm-charts/raw/master/charts/cloudman-0.1.0.tgz
+    version: 0.1.0
   galaxy-stable:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-12T00:26:59.846914343+05:30
+    created: 2018-06-13T01:21:22.215903432+05:30
     description: Galaxy is an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: fabc187f71ed9730a608e354c05a502eee7c83d3ceb4dd8ba6c24c4e01071e75
@@ -11,4 +40,4 @@ entries:
     urls:
     - https://github.com/CloudVE/helm-charts/raw/master/charts/galaxy-stable-2.0.0.tgz
     version: 2.0.0
-generated: 2018-06-12T00:26:59.843501072+05:30
+generated: 2018-06-13T01:21:22.200258242+05:30
