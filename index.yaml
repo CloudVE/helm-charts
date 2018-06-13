@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   cloudlaunch:
   - appVersion: 2.0.2
-    created: 2018-06-14T04:37:36.993366933+05:30
+    created: 2018-06-14T04:47:05.965476858+05:30
     description: A Helm chart for CloudLaunch, including the server and web UI
-    digest: 839b12dda6519b23affbbbaf9e56aa4b26aa1527ef9b5ce2ce89cf9d44944248
+    digest: 110c8d86a1358c2a983060c251550b5251e896a1140be785e06718f88c5a5d20
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
@@ -12,9 +12,9 @@ entries:
     version: 0.1.0
   cloudlaunch-server:
   - appVersion: 2.0.2
-    created: 2018-06-14T04:37:37.000529576+05:30
+    created: 2018-06-14T04:47:05.97014244+05:30
     description: A Helm chart for the CloudLaunch server/api component
-    digest: c476fd7d0c5b19b7fb9498ebb7fdfc35f20928a6b041fb73de21aaa35eafe321
+    digest: 0a1b0c87b45dd66d0d5cc4836478177a163115bfb5eb1aeca11120e1ea416bdc
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch-server
     urls:
@@ -22,9 +22,9 @@ entries:
     version: 0.1.0
   cloudman:
   - appVersion: 2.0.0
-    created: 2018-06-14T04:37:37.004893519+05:30
+    created: 2018-06-14T04:47:05.974695063+05:30
     description: A CloudMan Helm chart for Kubernetes
-    digest: 03f83ce473bd72f21ab6fdd39de4996eb24e6e7cc00aa85897014cef01993782
+    digest: 56ea157d102585742ffa33faa8fc5e7774f613c1277d36977e4c9c06aa97576a
     name: cloudman
     urls:
     - https://github.com/CloudVE/helm-charts/raw/master/charts/cloudman-0.1.0.tgz
@@ -32,7 +32,7 @@ entries:
   galaxy-stable:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-14T04:37:37.007503033+05:30
+    created: 2018-06-14T04:47:05.97673659+05:30
     description: Galaxy is an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: 04a59e3cb4cd98942a9934ae3b8111f266cd725dd84b26de67afd6e1fbaa7621
@@ -40,4 +40,4 @@ entries:
     urls:
     - https://github.com/CloudVE/helm-charts/raw/master/charts/galaxy-stable-2.0.0.tgz
     version: 2.0.0
-generated: 2018-06-14T04:37:36.982434997+05:30
+generated: 2018-06-14T04:47:05.961665598+05:30
