@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   cloudlaunch:
   - appVersion: 2.0.2
-    created: 2018-06-14T04:30:00.234911514+05:30
+    created: 2018-06-14T04:37:36.993366933+05:30
     description: A Helm chart for CloudLaunch, including the server and web UI
-    digest: 0c4652fc7cf2d3d6ba9e8abca3bb8e8fc6f4b7580dd6660ef6fd603f8a218180
+    digest: 839b12dda6519b23affbbbaf9e56aa4b26aa1527ef9b5ce2ce89cf9d44944248
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
@@ -12,9 +12,9 @@ entries:
     version: 0.1.0
   cloudlaunch-server:
   - appVersion: 2.0.2
-    created: 2018-06-14T04:30:00.239499372+05:30
+    created: 2018-06-14T04:37:37.000529576+05:30
     description: A Helm chart for the CloudLaunch server/api component
-    digest: 350ea9596dad13613c2c71092efad702b06688cd35b2c84f9d8d1bac9543c166
+    digest: c476fd7d0c5b19b7fb9498ebb7fdfc35f20928a6b041fb73de21aaa35eafe321
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch-server
     urls:
@@ -22,9 +22,9 @@ entries:
     version: 0.1.0
   cloudman:
   - appVersion: 2.0.0
-    created: 2018-06-14T04:30:00.242136214+05:30
+    created: 2018-06-14T04:37:37.004893519+05:30
     description: A CloudMan Helm chart for Kubernetes
-    digest: 66ca8261a8ced759911b20a030aa735769b1998708d0ba80e7502aa405651582
+    digest: 03f83ce473bd72f21ab6fdd39de4996eb24e6e7cc00aa85897014cef01993782
     name: cloudman
     urls:
     - https://github.com/CloudVE/helm-charts/raw/master/charts/cloudman-0.1.0.tgz
@@ -32,7 +32,7 @@ entries:
   galaxy-stable:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-14T04:30:00.244016919+05:30
+    created: 2018-06-14T04:37:37.007503033+05:30
     description: Galaxy is an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: 04a59e3cb4cd98942a9934ae3b8111f266cd725dd84b26de67afd6e1fbaa7621
@@ -40,4 +40,4 @@ entries:
     urls:
     - https://github.com/CloudVE/helm-charts/raw/master/charts/galaxy-stable-2.0.0.tgz
     version: 2.0.0
-generated: 2018-06-14T04:30:00.228332185+05:30
+generated: 2018-06-14T04:37:36.982434997+05:30
