@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   cloudlaunch:
   - appVersion: 2.0.2
-    created: 2018-06-21T18:16:28.151896391+05:30
+    created: 2018-06-21T18:32:19.85621303+05:30
     description: A Helm chart for CloudLaunch, including the server and web UI
-    digest: b735f7b690bb602d7d34df00d0408bdaf2149fc10470b58f69930b1ebb6a46ed
+    digest: 43e14d95b2f6a77f33455c8cbc153413a97a34bc5d6a031872ef4eb830f45b86
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
@@ -12,9 +12,9 @@ entries:
     version: 0.1.0
   cloudlaunch-server:
   - appVersion: 2.0.2
-    created: 2018-06-21T18:16:28.154688831+05:30
+    created: 2018-06-21T18:32:19.858379172+05:30
     description: A Helm chart for the CloudLaunch server/api component
-    digest: 18cdd562d57908f936c88f68d6ff4ada5aaee11a92e2532ab02433a3ca2884fc
+    digest: 10104e1849dc510fae8e0d089390ccaee7f65d8e264971d1ed8378c69d958287
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch-server
     urls:
@@ -22,9 +22,9 @@ entries:
     version: 0.1.0
   cloudman:
   - appVersion: 2.0.0
-    created: 2018-06-21T18:16:28.16410131+05:30
+    created: 2018-06-21T18:32:19.865523229+05:30
     description: A CloudMan Helm chart for Kubernetes
-    digest: f2d701d53a7f61d6040f4d5cd75888ef7299b14b0badc2a79f2b1d60cffd9a77
+    digest: 711677ea3a93cca5d18d5853da07fc861567928cdcad8e7a415069c7eeb1cf89
     name: cloudman
     urls:
     - https://github.com/CloudVE/helm-charts/raw/master/charts/cloudman-0.1.0.tgz
@@ -32,7 +32,7 @@ entries:
   galaxy-stable:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-21T18:16:28.1657252+05:30
+    created: 2018-06-21T18:32:19.867297451+05:30
     description: Galaxy is an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: 04a59e3cb4cd98942a9934ae3b8111f266cd725dd84b26de67afd6e1fbaa7621
@@ -42,7 +42,7 @@ entries:
     version: 2.0.0
   grafana:
   - appVersion: 5.1.2
-    created: 2018-06-21T18:16:28.168177208+05:30
+    created: 2018-06-21T18:32:19.869590193+05:30
     description: Grafana instance for kube-prometheus
     digest: 1575c2768a9bbee7df58b7a6b8379f4999a0eb26a524595ab3c2e2af336f6031
     engine: gotpl
@@ -61,7 +61,7 @@ entries:
     version: 0.0.30
   keycloak:
   - appVersion: 3.4.3.Final
-    created: 2018-06-21T18:16:28.170528258+05:30
+    created: 2018-06-21T18:32:19.871697826+05:30
     description: Open Source Identity and Access Management For Modern Applications
       and Services
     digest: 326f583777cdb413ea5f4c050f278e526103417ea936e6ef8615bfdefca87cff
@@ -87,7 +87,7 @@ entries:
     version: 2.0.0
   prometheus:
   - appVersion: 2.2.1
-    created: 2018-06-21T18:16:28.173430211+05:30
+    created: 2018-06-21T18:32:19.875900686+05:30
     description: Prometheus is a monitoring system and time series database.
     digest: ff23f84162f4bd6120bb5e8bb2f85431fc1f0bfa3ca0a50de37181d750dacf89
     engine: gotpl
@@ -106,4 +106,4 @@ entries:
     urls:
     - https://github.com/CloudVE/helm-charts/raw/master/charts/prometheus-6.2.1.tgz
     version: 6.2.1
-generated: 2018-06-21T18:16:28.148224157+05:30
+generated: 2018-06-21T18:32:19.853199272+05:30
