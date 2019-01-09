@@ -2,47 +2,92 @@ apiVersion: v1
 entries:
   cloudlaunch:
   - appVersion: 2.0.2
-    created: 2018-11-13T17:31:09.164046-05:00
+    created: 2018-06-27T08:30:53.675364562-07:00
     description: A Helm chart for CloudLaunch, including the server and web UI
     digest: 43e14d95b2f6a77f33455c8cbc153413a97a34bc5d6a031872ef4eb830f45b86
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudlaunch-0.1.0.tgz
+    - https://github.com/CloudVE/helm-charts/raw/master/charts/cloudlaunch-0.1.0.tgz
     version: 0.1.0
   cloudlaunch-server:
   - appVersion: 2.0.2
-    created: 2018-11-13T17:31:09.167007-05:00
+    created: 2018-06-27T08:30:53.679912372-07:00
     description: A Helm chart for the CloudLaunch server/api component
     digest: 10104e1849dc510fae8e0d089390ccaee7f65d8e264971d1ed8378c69d958287
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch-server
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudlaunch-server-0.1.0.tgz
+    - https://github.com/CloudVE/helm-charts/raw/master/charts/cloudlaunch-server-0.1.0.tgz
     version: 0.1.0
   cloudman:
   - appVersion: 2.0.0
-    created: 2018-11-13T17:31:09.174629-05:00
+    created: 2018-06-27T08:30:53.690175276-07:00
     description: A CloudMan Helm chart for Kubernetes
-    digest: a6d79e569e8cea578914d1195501b027f2d8ee956b7a6c68181fe1c387afca57
+    digest: 711677ea3a93cca5d18d5853da07fc861567928cdcad8e7a415069c7eeb1cf89
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.1.0.tgz
+    - https://github.com/CloudVE/helm-charts/raw/master/charts/cloudman-0.1.0.tgz
     version: 0.1.0
   galaxy-stable:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-13T17:31:09.177093-05:00
+    created: 2018-06-27T08:30:53.691133202-07:00
     description: Galaxy is an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: daa7a037d8b39fd3fe31401686a36d7e0a58f69aaea1635c818231f52281f270
     name: galaxy-stable
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-stable-2.0.0.tgz
+    - https://github.com/CloudVE/helm-charts/raw/master/charts/galaxy-stable-2.0.0.tgz
+    version: 2.0.0
+  grafana:
+  - appVersion: 5.1.2
+    created: 2018-06-27T08:30:53.693863123-07:00
+    description: Grafana instance for kube-prometheus
+    digest: 1575c2768a9bbee7df58b7a6b8379f4999a0eb26a524595ab3c2e2af336f6031
+    engine: gotpl
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: weiwei.inf@gmail.com
+      name: Wei Wei
+    - email: vglafirov@gmail.com
+      name: Vladimir Glafirov
+    name: grafana
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/CloudVE/helm-charts/raw/master/charts/grafana-0.0.30.tgz
+    version: 0.0.30
+  keycloak:
+  - appVersion: 3.4.3.Final
+    created: 2018-06-27T08:30:53.696487119-07:00
+    description: Open Source Identity and Access Management For Modern Applications
+      and Services
+    digest: 326f583777cdb413ea5f4c050f278e526103417ea936e6ef8615bfdefca87cff
+    home: https://www.keycloak.org/
+    icon: https://www.keycloak.org/resources/images/keycloak_logo_480x108.png
+    keywords:
+    - sso
+    - idm
+    - openid connect
+    - saml
+    - kerberos
+    - ldap
+    maintainers:
+    - email: marcel@beck.im
+      name: nexeck
+    - email: unguiculus@gmail.com
+      name: unguiculus
+    name: keycloak
+    sources:
+    - https://github.com/jboss-dockerfiles/keycloak
+    urls:
+    - https://github.com/CloudVE/helm-charts/raw/master/charts/keycloak-2.0.0.tgz
     version: 2.0.0
   prometheus:
   - appVersion: 2.2.1
-    created: 2018-11-13T17:31:09.182181-05:00
+    created: 2018-06-27T08:30:53.700084454-07:00
     description: Prometheus is a monitoring system and time series database.
     digest: ff23f84162f4bd6120bb5e8bb2f85431fc1f0bfa3ca0a50de37181d750dacf89
     engine: gotpl
@@ -59,17 +104,6 @@ entries:
     - https://github.com/prometheus/node_exporter
     - https://github.com/kubernetes/kube-state-metrics
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/prometheus-6.2.1.tgz
+    - https://github.com/CloudVE/helm-charts/raw/master/charts/prometheus-6.2.1.tgz
     version: 6.2.1
-  pulsar:
-  - apiVersion: v1
-    appVersion: 0.9.0
-    created: 2018-11-13T17:31:09.183523-05:00
-    description: A Python server application that allows a Galaxy server to run jobs
-      on remote systems without requiring a shared mounted file systems.
-    digest: 8ec38223bc87e203c5b8ceb03912f9fc7ebba17e8f859cf03e8b4a47ae733408
-    name: pulsar
-    urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/pulsar-0.1.0.tgz
-    version: 0.1.0
-generated: 2018-11-13T17:31:09.159434-05:00
+generated: 2018-06-27T08:30:53.668428302-07:00
