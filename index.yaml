@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   cloudlaunch:
   - appVersion: 2.0.2
-    created: 2019-03-27T12:29:10.672983+05:30
+    created: 2019-03-31T00:32:45.297939+05:30
     description: A Helm chart for CloudLaunch, including the server and web UI
-    digest: fc07be32215d0b1219bb5471244afae21fa1a42b5f16e275f1c06d4e5e4da324
+    digest: 7b583254501394549ea9b9d18c1f2b4c1c0e9465cccd68daaab69453cf119d4f
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
@@ -12,9 +12,9 @@ entries:
     version: 0.1.0
   cloudlaunch-server:
   - appVersion: 2.0.2
-    created: 2019-03-27T12:29:10.67627+05:30
+    created: 2019-03-31T00:32:45.301173+05:30
     description: A Helm chart for the CloudLaunch server/api component
-    digest: a34281629fa8c31134115f279ac9dda0161a9128ef06e1e12c3c2bf9b8da3971
+    digest: 6ef9d65d850d466243800a73e3b196b9214c667bd6b2874a181e52ffca122dd5
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch-server
     urls:
@@ -22,7 +22,7 @@ entries:
     version: 0.1.0
   cloudman:
   - appVersion: 2.0.0
-    created: 2019-03-27T12:29:10.68646+05:30
+    created: 2019-03-31T00:32:45.309704+05:30
     description: A CloudMan Helm chart for Kubernetes
     digest: 475a0809638c64a908e994879188b29544abbe93bff1bcea6feba244ab8b43f2
     name: cloudman
@@ -32,7 +32,7 @@ entries:
   galaxy-stable:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-03-27T12:29:10.688504+05:30
+    created: 2019-03-31T00:32:45.3124+05:30
     description: Galaxy is an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: daa7a037d8b39fd3fe31401686a36d7e0a58f69aaea1635c818231f52281f270
@@ -42,7 +42,7 @@ entries:
     version: 2.0.0
   prometheus:
   - appVersion: 2.2.1
-    created: 2019-03-27T12:29:10.692335+05:30
+    created: 2019-03-31T00:32:45.315905+05:30
     description: Prometheus is a monitoring system and time series database.
     digest: ff23f84162f4bd6120bb5e8bb2f85431fc1f0bfa3ca0a50de37181d750dacf89
     engine: gotpl
@@ -64,7 +64,7 @@ entries:
   pulsar:
   - apiVersion: v1
     appVersion: 0.9.0
-    created: 2019-03-27T12:29:10.693001+05:30
+    created: 2019-03-31T00:32:45.316518+05:30
     description: A Python server application that allows a Galaxy server to run jobs
       on remote systems without requiring a shared mounted file systems.
     digest: 8ec38223bc87e203c5b8ceb03912f9fc7ebba17e8f859cf03e8b4a47ae733408
@@ -72,4 +72,4 @@ entries:
     urls:
     - https://github.com/CloudVE/helm-charts/raw/master/charts/pulsar-0.1.0.tgz
     version: 0.1.0
-generated: 2019-03-27T12:29:10.666934+05:30
+generated: 2019-03-31T00:32:45.291603+05:30
