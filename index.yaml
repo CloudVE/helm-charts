@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cloudlaunch:
   - appVersion: 2.0.2
-    created: 2019-04-23T21:03:04.535804+05:30
+    created: 2019-05-09T17:22:11.653212+05:30
     description: A Helm chart for CloudLaunch, including the server and web UI
     digest: dd04a5125ad72653897bfa16b3e243c7349ec054387059477ed6c063fa8cb051
     home: http://cloudlaunch.cloudve.org/
@@ -11,7 +11,7 @@ entries:
     - https://github.com/CloudVE/helm-charts/raw/master/charts/cloudlaunch-0.2.0.tgz
     version: 0.2.0
   - appVersion: 2.0.2
-    created: 2019-04-23T21:03:04.531438+05:30
+    created: 2019-05-09T17:22:11.647666+05:30
     description: A Helm chart for CloudLaunch, including the server and web UI
     digest: 7b583254501394549ea9b9d18c1f2b4c1c0e9465cccd68daaab69453cf119d4f
     home: http://cloudlaunch.cloudve.org/
@@ -21,7 +21,7 @@ entries:
     version: 0.1.0
   cloudlaunch-server:
   - appVersion: 2.0.2
-    created: 2019-04-23T21:03:04.546356+05:30
+    created: 2019-05-09T17:22:11.662547+05:30
     description: A Helm chart for the CloudLaunch server/api component
     digest: 06612910832cca635decbd32e313e41bab55e2bf03df5bc1a045dd5d681578dc
     home: http://cloudlaunch.cloudve.org/
@@ -30,7 +30,7 @@ entries:
     - https://github.com/CloudVE/helm-charts/raw/master/charts/cloudlaunch-server-0.2.0.tgz
     version: 0.2.0
   - appVersion: 2.0.2
-    created: 2019-04-23T21:03:04.542483+05:30
+    created: 2019-05-09T17:22:11.657016+05:30
     description: A Helm chart for the CloudLaunch server/api component
     digest: 6ef9d65d850d466243800a73e3b196b9214c667bd6b2874a181e52ffca122dd5
     home: http://cloudlaunch.cloudve.org/
@@ -40,7 +40,7 @@ entries:
     version: 0.1.0
   cloudman:
   - appVersion: 2.0.0
-    created: 2019-04-23T21:03:04.565829+05:30
+    created: 2019-05-09T17:22:11.678413+05:30
     description: A CloudMan Helm chart for Kubernetes
     digest: 405959f7d945f5784efade016192a38838292dce80949bc6411f22222dd986d8
     name: cloudman
@@ -48,7 +48,7 @@ entries:
     - https://github.com/CloudVE/helm-charts/raw/master/charts/cloudman-0.2.0.tgz
     version: 0.2.0
   - appVersion: 2.0.0
-    created: 2019-04-23T21:03:04.554121+05:30
+    created: 2019-05-09T17:22:11.670802+05:30
     description: A CloudMan Helm chart for Kubernetes
     digest: 475a0809638c64a908e994879188b29544abbe93bff1bcea6feba244ab8b43f2
     name: cloudman
@@ -58,7 +58,7 @@ entries:
   galaxy-stable:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-04-23T21:03:04.567325+05:30
+    created: 2019-05-09T17:22:11.681457+05:30
     description: Galaxy is an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: daa7a037d8b39fd3fe31401686a36d7e0a58f69aaea1635c818231f52281f270
@@ -66,9 +66,37 @@ entries:
     urls:
     - https://github.com/CloudVE/helm-charts/raw/master/charts/galaxy-stable-2.0.0.tgz
     version: 2.0.0
+  postgresql:
+  - apiVersion: v1
+    appVersion: 10.7.0
+    created: 2019-05-09T17:22:11.683528+05:30
+    description: Chart for PostgreSQL, an object-relational database management system
+      (ORDBMS) with an emphasis on extensibility and on standards-compliance.
+    digest: 0cbfa219c2c3a1a7d56e3702becc1b4892247f4861acdca4a6f4d6a597b20153
+    engine: gotpl
+    home: https://www.postgresql.org/
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    urls:
+    - https://github.com/CloudVE/helm-charts/raw/master/charts/postgresql-4.0.0.tgz
+    version: 4.0.0
   prometheus:
   - appVersion: 2.2.1
-    created: 2019-04-23T21:03:04.570283+05:30
+    created: 2019-05-09T17:22:11.686335+05:30
     description: Prometheus is a monitoring system and time series database.
     digest: ff23f84162f4bd6120bb5e8bb2f85431fc1f0bfa3ca0a50de37181d750dacf89
     engine: gotpl
@@ -90,7 +118,7 @@ entries:
   pulsar:
   - apiVersion: v1
     appVersion: 0.9.0
-    created: 2019-04-23T21:03:04.570828+05:30
+    created: 2019-05-09T17:22:11.686833+05:30
     description: A Python server application that allows a Galaxy server to run jobs
       on remote systems without requiring a shared mounted file systems.
     digest: 8ec38223bc87e203c5b8ceb03912f9fc7ebba17e8f859cf03e8b4a47ae733408
@@ -98,4 +126,4 @@ entries:
     urls:
     - https://github.com/CloudVE/helm-charts/raw/master/charts/pulsar-0.1.0.tgz
     version: 0.1.0
-generated: 2019-04-23T21:03:04.522102+05:30
+generated: 2019-05-09T17:22:11.63791+05:30
