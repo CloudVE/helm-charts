@@ -2,16 +2,16 @@ apiVersion: v1
 entries:
   cloudlaunch:
   - appVersion: 2.0.2
-    created: "2019-11-04T18:28:46.943428+05:30"
+    created: "2019-11-04T21:59:30.778438+05:30"
     description: A Helm chart for CloudLaunch, including the server and web UI
-    digest: 418542134249c218702b792118e34ba4676b6a547ae1ced7e37eb44de4964d72
+    digest: b68e62606e11c15d6df51e53fbba21b0abb5a74549220214563ce40ebaef277c
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudlaunch-0.3.0.tgz
     version: 0.3.0
   - appVersion: 2.0.2
-    created: "2019-11-04T18:28:46.938276+05:30"
+    created: "2019-11-04T21:59:30.774968+05:30"
     description: A Helm chart for CloudLaunch, including the server and web UI
     digest: 24c43d535919bd76763f4b80a186e4d80633902cb875fa60c9db211eeb85881b
     home: http://cloudlaunch.cloudve.org/
@@ -20,7 +20,7 @@ entries:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudlaunch-0.2.0.tgz
     version: 0.2.0
   - appVersion: 2.0.2
-    created: "2019-11-04T18:28:46.933439+05:30"
+    created: "2019-11-04T21:59:30.769882+05:30"
     description: A Helm chart for CloudLaunch, including the server and web UI
     digest: 7b583254501394549ea9b9d18c1f2b4c1c0e9465cccd68daaab69453cf119d4f
     home: http://cloudlaunch.cloudve.org/
@@ -30,7 +30,7 @@ entries:
     version: 0.1.0
   cloudlaunch-server:
   - appVersion: 2.0.2
-    created: "2019-11-04T18:28:46.954816+05:30"
+    created: "2019-11-04T21:59:30.786814+05:30"
     description: A Helm chart for the CloudLaunch server/api component
     digest: 83d13d14b11894999d63b0fd56bfc175659e7f3e397ada634ce77e8dd4592915
     home: http://cloudlaunch.cloudve.org/
@@ -39,7 +39,7 @@ entries:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudlaunch-server-0.2.0.tgz
     version: 0.2.0
   - appVersion: 2.0.2
-    created: "2019-11-04T18:28:46.949973+05:30"
+    created: "2019-11-04T21:59:30.782889+05:30"
     description: A Helm chart for the CloudLaunch server/api component
     digest: 6ef9d65d850d466243800a73e3b196b9214c667bd6b2874a181e52ffca122dd5
     home: http://cloudlaunch.cloudve.org/
@@ -49,9 +49,9 @@ entries:
     version: 0.1.0
   cloudlaunchserver:
   - appVersion: 2.0.2
-    created: "2019-11-04T18:28:46.959815+05:30"
+    created: "2019-11-04T21:59:30.791644+05:30"
     description: A Helm chart for the CloudLaunch server/api component
-    digest: 75961bfb6f4032773c4a686593e7a418e5f29aacfb483f764df995f167a5a489
+    digest: 76f6f9c432e8ca51cc8d3a99306bcc1a23a8de14f8f6190533d8f2a5fa23457d
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunchserver
     urls:
@@ -59,7 +59,7 @@ entries:
     version: 0.3.0
   cloudman:
   - appVersion: 2.0.0
-    created: "2019-11-04T18:28:47.004449+05:30"
+    created: "2019-11-04T21:59:30.828759+05:30"
     description: A CloudMan Helm chart for Kubernetes
     digest: 2ba6400761231a8eafd77e3c809b1cdd4866843b3ee956186d4b46e1ad995502
     name: cloudman
@@ -67,15 +67,15 @@ entries:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudman-0.3.1.tgz
     version: 0.3.1
   - appVersion: 2.0.0
-    created: "2019-11-04T18:28:46.990804+05:30"
+    created: "2019-11-04T21:59:30.818976+05:30"
     description: A CloudMan Helm chart for Kubernetes
-    digest: 7f051ae54736d3385675eaaaaa1a37c7080b0ee91140b62ef5cfde4139197795
+    digest: 264ac4e2428528a72a3db420e6685aeb22c6073ed5cd07b0078734a444aed44f
     name: cloudman
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudman-0.3.0.tgz
     version: 0.3.0
   - appVersion: 2.0.0
-    created: "2019-11-04T18:28:46.979167+05:30"
+    created: "2019-11-04T21:59:30.807454+05:30"
     description: A CloudMan Helm chart for Kubernetes
     digest: 9e7d73710412c6568f851f0369fdd420e3ae53b3b6da79430111a8a55be2a250
     name: cloudman
@@ -83,7 +83,7 @@ entries:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudman-0.2.0.tgz
     version: 0.2.0
   - appVersion: 2.0.0
-    created: "2019-11-04T18:28:46.968058+05:30"
+    created: "2019-11-04T21:59:30.798897+05:30"
     description: A CloudMan Helm chart for Kubernetes
     digest: 475a0809638c64a908e994879188b29544abbe93bff1bcea6feba244ab8b43f2
     name: cloudman
@@ -93,7 +93,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: v19.09
-    created: "2019-11-04T18:28:47.028555+05:30"
+    created: "2019-11-04T21:59:30.850647+05:30"
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: 7e67effc8783a634699a174c2f5276cdef675a517db36d09bc1ed086b08bb7d0
@@ -104,7 +104,7 @@ entries:
     version: 3.1.0
   - apiVersion: v1
     appVersion: v19.05
-    created: "2019-11-04T18:28:47.018401+05:30"
+    created: "2019-11-04T21:59:30.840186+05:30"
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: a9ad88a7aa8dc0e9b7781a3b19800686c5456e8cf891d90e5a91a41f46285b1f
@@ -116,7 +116,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2019-11-04T18:28:47.029392+05:30"
+    created: "2019-11-04T21:59:30.859168+05:30"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 442684e7e912301e774cdd6376e249da443e488fdc6b6c0bec42e05c694330f6
@@ -126,7 +126,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-04T18:28:47.029002+05:30"
+    created: "2019-11-04T21:59:30.857625+05:30"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: a4648dedfa70623b37ed6ea1fe332500149e17d87ce772315e484944ec2aa6b2
@@ -137,7 +137,7 @@ entries:
   galaxy-stable:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-04T18:28:47.030261+05:30"
+    created: "2019-11-04T21:59:30.862198+05:30"
     description: Galaxy is an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: daa7a037d8b39fd3fe31401686a36d7e0a58f69aaea1635c818231f52281f270
@@ -148,7 +148,7 @@ entries:
   postgresql:
   - apiVersion: v1
     appVersion: 10.7.0
-    created: "2019-11-04T18:28:47.031517+05:30"
+    created: "2019-11-04T21:59:30.86613+05:30"
     description: Chart for PostgreSQL, an object-relational database management system
       (ORDBMS) with an emphasis on extensibility and on standards-compliance.
     digest: 9fe4d7a1533308c051750571254b00aaaaed7926906508ad9887d6473d8bc5fb
@@ -175,7 +175,7 @@ entries:
     version: 4.0.0
   prometheus:
   - appVersion: 2.2.1
-    created: "2019-11-04T18:28:47.034232+05:30"
+    created: "2019-11-04T21:59:30.869909+05:30"
     description: Prometheus is a monitoring system and time series database.
     digest: ff23f84162f4bd6120bb5e8bb2f85431fc1f0bfa3ca0a50de37181d750dacf89
     engine: gotpl
@@ -197,7 +197,7 @@ entries:
   pulsar:
   - apiVersion: v1
     appVersion: 0.9.0
-    created: "2019-11-04T18:28:47.034565+05:30"
+    created: "2019-11-04T21:59:30.871312+05:30"
     description: A Python server application that allows a Galaxy server to run jobs
       on remote systems without requiring a shared mounted file systems.
     digest: 8ec38223bc87e203c5b8ceb03912f9fc7ebba17e8f859cf03e8b4a47ae733408
@@ -205,4 +205,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/pulsar-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-04T18:28:46.929531+05:30"
+generated: "2019-11-04T21:59:30.761703+05:30"
