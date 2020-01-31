@@ -3,7 +3,7 @@ entries:
   cloudlaunch:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-01-30T19:18:51.419299-05:00"
+    created: "2020-01-30T19:18:44.887048-05:00"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -13,11 +13,11 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudlaunch-0.3.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/cloudlaunch-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-01-30T19:18:51.409934-05:00"
+    created: "2020-01-30T19:18:44.877788-05:00"
     dependencies:
     - name: cloudlaunch-server
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -27,11 +27,11 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudlaunch-0.2.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/cloudlaunch-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-01-30T19:18:51.404857-05:00"
+    created: "2020-01-30T19:18:44.841408-05:00"
     dependencies:
     - name: cloudlaunch-server
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -41,12 +41,12 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudlaunch-0.1.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/cloudlaunch-0.1.0.tgz
     version: 0.1.0
   cloudlaunch-server:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-01-30T19:18:51.429382-05:00"
+    created: "2020-01-30T19:18:44.958496-05:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -60,11 +60,11 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch-server
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudlaunch-server-0.2.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/cloudlaunch-server-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-01-30T19:18:51.424213-05:00"
+    created: "2020-01-30T19:18:44.918604-05:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -78,12 +78,12 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch-server
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudlaunch-server-0.1.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/cloudlaunch-server-0.1.0.tgz
     version: 0.1.0
   cloudlaunchserver:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-01-30T19:18:51.435441-05:00"
+    created: "2020-01-30T19:18:44.966137-05:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -97,12 +97,12 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunchserver
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudlaunchserver-0.3.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/cloudlaunchserver-0.3.0.tgz
     version: 0.3.0
   cloudman:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-01-30T19:18:51.506177-05:00"
+    created: "2020-01-30T19:18:45.120965-05:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -121,11 +121,11 @@ entries:
     digest: 74748047a5c510fb191f63906a126e3d8d04ccee7cb22fa66872fa4f43829324
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudman-0.3.1.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/cloudman-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-01-30T19:18:51.470236-05:00"
+    created: "2020-01-30T19:18:45.084818-05:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -140,11 +140,11 @@ entries:
     digest: 264ac4e2428528a72a3db420e6685aeb22c6073ed5cd07b0078734a444aed44f
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudman-0.3.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/cloudman-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-01-30T19:18:51.457454-05:00"
+    created: "2020-01-30T19:18:45.046553-05:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -159,11 +159,11 @@ entries:
     digest: 9e7d73710412c6568f851f0369fdd420e3ae53b3b6da79430111a8a55be2a250
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudman-0.2.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/cloudman-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-01-30T19:18:51.445291-05:00"
+    created: "2020-01-30T19:18:45.004374-05:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master/
@@ -178,12 +178,12 @@ entries:
     digest: 475a0809638c64a908e994879188b29544abbe93bff1bcea6feba244ab8b43f2
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudman-0.1.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/cloudman-0.1.0.tgz
     version: 0.1.0
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-01-30T19:18:51.544207-05:00"
+    created: "2020-01-30T19:18:45.192108-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -195,11 +195,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-3.2.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/galaxy-3.2.0.tgz
     version: 3.2.0
   - apiVersion: v1
     appVersion: v19.09
-    created: "2020-01-30T19:18:51.534491-05:00"
+    created: "2020-01-30T19:18:45.182344-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -211,11 +211,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-3.1.1.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/galaxy-3.1.1.tgz
     version: 3.1.1
   - apiVersion: v1
     appVersion: v19.09
-    created: "2020-01-30T19:18:51.526032-05:00"
+    created: "2020-01-30T19:18:45.172274-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -227,11 +227,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-3.1.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/galaxy-3.1.0.tgz
     version: 3.1.0
   - apiVersion: v1
     appVersion: v19.05
-    created: "2020-01-30T19:18:51.516187-05:00"
+    created: "2020-01-30T19:18:45.132671-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -243,33 +243,33 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-3.0.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/galaxy-3.0.0.tgz
     version: 3.0.0
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-01-30T19:18:51.54627-05:00"
+    created: "2020-01-30T19:18:45.248721-05:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 442684e7e912301e774cdd6376e249da443e488fdc6b6c0bec42e05c694330f6
     name: galaxy-cvmfs-csi
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-cvmfs-csi-1.1.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/galaxy-cvmfs-csi-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-30T19:18:51.545199-05:00"
+    created: "2020-01-30T19:18:45.246177-05:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: a4648dedfa70623b37ed6ea1fe332500149e17d87ce772315e484944ec2aa6b2
     name: galaxy-cvmfs-csi
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-cvmfs-csi-1.0.1.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/galaxy-cvmfs-csi-1.0.1.tgz
     version: 1.0.1
   galaxy-stable:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-30T19:18:51.548775-05:00"
+    created: "2020-01-30T19:18:45.25186-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -280,12 +280,12 @@ entries:
     digest: daa7a037d8b39fd3fe31401686a36d7e0a58f69aaea1635c818231f52281f270
     name: galaxy-stable
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-stable-2.0.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/galaxy-stable-2.0.0.tgz
     version: 2.0.0
   postgresql:
   - apiVersion: v1
     appVersion: 10.7.0
-    created: "2020-01-30T19:18:51.551106-05:00"
+    created: "2020-01-30T19:18:45.292049-05:00"
     description: Chart for PostgreSQL, an object-relational database management system
       (ORDBMS) with an emphasis on extensibility and on standards-compliance.
     digest: 9fe4d7a1533308c051750571254b00aaaaed7926906508ad9887d6473d8bc5fb
@@ -307,12 +307,12 @@ entries:
     sources:
     - https://github.com/bitnami/bitnami-docker-postgresql
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/postgresql-4.0.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/postgresql-4.0.0.tgz
     version: 4.0.0
   prometheus:
   - apiVersion: v1
     appVersion: 2.2.1
-    created: "2020-01-30T19:18:51.556773-05:00"
+    created: "2020-01-30T19:18:45.335644-05:00"
     dependencies:
     - condition: grafana.enabled
       name: grafana
@@ -335,17 +335,17 @@ entries:
     - https://github.com/prometheus/node_exporter
     - https://github.com/kubernetes/kube-state-metrics
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/prometheus-6.2.1.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/prometheus-6.2.1.tgz
     version: 6.2.1
   pulsar:
   - apiVersion: v1
     appVersion: 0.9.0
-    created: "2020-01-30T19:18:51.557722-05:00"
+    created: "2020-01-30T19:18:45.371461-05:00"
     description: A Python server application that allows a Galaxy server to run jobs
       on remote systems without requiring a shared mounted file systems.
     digest: 8ec38223bc87e203c5b8ceb03912f9fc7ebba17e8f859cf03e8b4a47ae733408
     name: pulsar
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/pulsar-0.1.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/pulsar-0.1.0.tgz
     version: 0.1.0
-generated: "2020-01-30T19:18:51.397876-05:00"
+generated: "2020-01-30T19:18:44.830218-05:00"
