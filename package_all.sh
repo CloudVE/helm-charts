@@ -9,7 +9,7 @@
 # and ignore outside dependencies for all charts except 
 
 REPO_NAME=cloudve
-BRANCH_NAME=master
+BRANCH_NAME=gvl-5.0
 
 rm -rf ../cloudlaunch-helm/cloudlaunchserver/charts
 rm -rf ../cloudlaunch-helm/cloudlaunch/charts
