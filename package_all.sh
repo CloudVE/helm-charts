@@ -6,7 +6,10 @@
 # ../cloudlaunch-helm
 # ../galaxy-helm
 # This script will package cloudlaunch, cloudlaunchserver, cloudman, and galaxy
-# and ignore outside dependencies for all charts except 
+# and use the packaged version of each as a dependency for the next for the above charts
+# (i.e. one does not have to change the dependencies of each of the charts to point to their
+# fork, the final packaged cloudman will have the packaged cloudlaunch version, and not the one
+# downloaded from the dependency.yml)
 
 REPO_NAME=cloudve
 BRANCH_NAME=master
