@@ -3,7 +3,7 @@ entries:
   cloudlaunch:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-02-05T12:44:14.402452-05:00"
+    created: "2020-02-05T12:52:02.968365-05:00"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -18,7 +18,7 @@ entries:
   cloudlaunchserver:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-02-05T12:44:14.410469-05:00"
+    created: "2020-02-05T12:52:02.976277-05:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -37,7 +37,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-02-05T12:44:14.451227-05:00"
+    created: "2020-02-05T12:52:03.011895-05:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -58,4 +58,21 @@ entries:
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudman-0.3.1.tgz
     version: 0.3.1
-generated: "2020-02-05T12:44:14.391294-05:00"
+  galaxy:
+  - apiVersion: v1
+    appVersion: "20.01"
+    created: "2020-02-05T12:52:03.023187-05:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 8.1.4
+    description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
+      and transparent computational biomedical research.
+    digest: dc12446f22a3de1864126c36f3e35f41e44c12401220597fc88af6e31a423bed
+    icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
+    name: galaxy
+    urls:
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-3.2.0.tgz
+    version: 3.2.0
+generated: "2020-02-05T12:52:02.95778-05:00"
