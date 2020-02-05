@@ -1,0 +1,149 @@
+extraEnv: []
+global:
+  postgresql: {}
+image:
+  debug: false
+  pullPolicy: IfNotPresent
+  registry: docker.io
+  repository: bitnami/postgresql
+  tag: 11.6.0-debian-10-r5
+ldap:
+  baseDN: ""
+  bind_password: null
+  bindDN: ""
+  enabled: false
+  port: ""
+  prefix: ""
+  scheme: ""
+  search_attr: ""
+  search_filter: ""
+  server: ""
+  suffix: ""
+  tls: false
+  url: ""
+livenessProbe:
+  enabled: true
+  failureThreshold: 6
+  initialDelaySeconds: 30
+  periodSeconds: 10
+  successThreshold: 1
+  timeoutSeconds: 5
+master:
+  affinity: {}
+  annotations: {}
+  extraInitContainers: ""
+  extraVolumeMounts: []
+  extraVolumes: []
+  labels: {}
+  nodeSelector: {}
+  podAnnotations: {}
+  podLabels: {}
+  priorityClassName: ""
+  tolerations: []
+metrics:
+  enabled: false
+  image:
+    pullPolicy: IfNotPresent
+    registry: docker.io
+    repository: bitnami/postgres-exporter
+    tag: 0.8.0-debian-10-r4
+  livenessProbe:
+    enabled: true
+    failureThreshold: 6
+    initialDelaySeconds: 5
+    periodSeconds: 10
+    successThreshold: 1
+    timeoutSeconds: 5
+  prometheusRule:
+    additionalLabels: {}
+    enabled: false
+    namespace: ""
+    rules: []
+  readinessProbe:
+    enabled: true
+    failureThreshold: 6
+    initialDelaySeconds: 5
+    periodSeconds: 10
+    successThreshold: 1
+    timeoutSeconds: 5
+  securityContext:
+    enabled: false
+    runAsUser: 1001
+  service:
+    annotations:
+      prometheus.io/port: "9187"
+      prometheus.io/scrape: "true"
+    loadBalancerIP: null
+    type: ClusterIP
+  serviceMonitor:
+    additionalLabels: {}
+    enabled: false
+networkPolicy:
+  allowExternal: true
+  enabled: false
+persistence:
+  accessModes:
+  - ReadWriteOnce
+  annotations: {}
+  enabled: true
+  mountPath: /bitnami/postgresql
+  size: 8Gi
+  subPath: ""
+postgresqlDataDir: /bitnami/postgresql/data
+postgresqlUsername: postgres
+readinessProbe:
+  enabled: true
+  failureThreshold: 6
+  initialDelaySeconds: 5
+  periodSeconds: 10
+  successThreshold: 1
+  timeoutSeconds: 5
+replication:
+  applicationName: my_application
+  enabled: false
+  numSynchronousReplicas: 0
+  password: repl_password
+  slaveReplicas: 1
+  synchronousCommit: "off"
+  user: repl_user
+resources:
+  requests:
+    cpu: 250m
+    memory: 256Mi
+securityContext:
+  enabled: true
+  fsGroup: 1001
+  runAsUser: 1001
+service:
+  annotations: {}
+  port: 5432
+  type: ClusterIP
+serviceAccount:
+  enabled: false
+shmVolume:
+  chmod:
+    enabled: true
+  enabled: true
+slave:
+  affinity: {}
+  annotations: {}
+  extraInitContainers: ""
+  extraVolumeMounts: []
+  extraVolumes: []
+  labels: {}
+  nodeSelector: {}
+  podAnnotations: {}
+  podLabels: {}
+  priorityClassName: ""
+  tolerations: []
+updateStrategy:
+  type: RollingUpdate
+volumePermissions:
+  enabled: true
+  image:
+    pullPolicy: Always
+    registry: docker.io
+    repository: bitnami/minideb
+    tag: stretch
+  securityContext:
+    runAsUser: 0

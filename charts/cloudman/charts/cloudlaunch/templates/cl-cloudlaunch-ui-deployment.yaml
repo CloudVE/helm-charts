@@ -1,0 +1,65 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ template "cloudlaunch.fullname" . }}-ui
+  labels:
+    app: {{ template "cloudlaunch.name" . }}
+    chart: {{ template "cloudlaunch.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+    component: frontend
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ template "cloudlaunch.name" . }}
+      release: {{ .Release.Name }}
+      component: frontend
+  template:
+    metadata:
+      labels:
+        app: {{ template "cloudlaunch.name" . }}
+        release: {{ .Release.Name }}
+        component: frontend
+      annotations:
+        {{- with .Values.podAnnotations -}}
+        {{ toYaml . | nindent 8 }}
+        {{ end }}
+    spec:
+      volumes:
+        - name: nginx-config
+          configMap:
+            name: {{ template "cloudlaunch.fullname" . }}-nginx-conf
+      containers:
+        - name: {{ .Values.container_name | default .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          livenessProbe:
+            tcpSocket:
+              port: http
+          readinessProbe:
+            tcpSocket:
+              port: http
+          volumeMounts:
+            - name: nginx-config
+              mountPath: /etc/nginx/conf.d
+              readOnly: true
+          resources:
+{{ toYaml .Values.resources | indent 12 }}
+    {{- with .Values.nodeSelector }}
+      nodeSelector:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.tolerations }}
+      tolerations:
+{{ toYaml . | indent 8 }}
+    {{- end }}

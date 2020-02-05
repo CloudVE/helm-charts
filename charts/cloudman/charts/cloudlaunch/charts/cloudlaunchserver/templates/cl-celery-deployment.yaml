@@ -1,0 +1,80 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ template "cloudlaunchserver.fullname" . }}-celery
+  labels:
+    app: {{ template "cloudlaunchserver.name" . }}
+    chart: {{ template "cloudlaunchserver.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+    component: celery
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ template "cloudlaunchserver.name" . }}
+      release: {{ .Release.Name }}
+      component: celery
+  template:
+    metadata:
+      labels:
+        app: {{ template "cloudlaunchserver.name" . }}
+        release: {{ .Release.Name }}
+        component: celery
+      annotations:
+        {{- with .Values.podAnnotations -}}
+        {{ toYaml . | nindent 8 }}
+        {{ end }}
+    spec:
+      # Give 30 mins for celery worker to finish
+      terminationGracePeriodSeconds: 1800
+      containers:
+        - name: {{ .Values.container_name | default .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          command:
+            - /bin/bash
+          args: ["-c", 'source /app/venv/bin/activate && /app/venv/bin/celery -E -A {{ .Values.celery_app_name | default "cloudlaunchserver" | quote }} -l debug --beat worker']
+          lifecycle:
+            preStop:
+              exec:
+                # Trigger a graceful shutdown of the worker by sending SIGTERM and waiting for process exit
+                command: ["/bin/sh", "-ce", "pkill celery; while pkill -0 celery; do sleep 5; done"]
+          readinessProbe:
+            exec:
+              command: ["bash",
+                        "-c",
+                        "/app/venv/bin/celery inspect ping -A {{ .Values.celery_app_name | default "cloudlaunchserver" }} -d celery@$HOSTNAME"]
+            timeoutSeconds: 10
+          livenessProbe:
+            exec:
+              command: ["bash",
+                        "-c",
+                        "/app/venv/bin/celery inspect ping -A {{ .Values.celery_app_name | default "cloudlaunchserver" }} -d celery@$HOSTNAME"]
+          ports:
+            - name: http
+              containerPort: 8000
+              protocol: TCP
+          env:
+          {{- include "cloudlaunchserver.envvars" . }}
+{{- range $key, $val := .Values.extra_env }}
+{{- if $val }}
+            - name: {{ $key | upper }}
+              value: "{{ tpl $val $ }}"
+{{- end }}
+{{- end }}
+          resources:
+{{ toYaml .Values.resources | indent 12 }}
+    {{- with .Values.nodeSelector }}
+      nodeSelector:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.tolerations }}
+      tolerations:
+{{ toYaml . | indent 8 }}
+    {{- end }}

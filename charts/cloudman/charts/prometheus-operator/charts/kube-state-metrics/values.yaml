@@ -1,0 +1,67 @@
+affinity: {}
+collectors:
+  certificatesigningrequests: true
+  configmaps: true
+  cronjobs: true
+  daemonsets: true
+  deployments: true
+  endpoints: true
+  horizontalpodautoscalers: true
+  ingresses: true
+  jobs: true
+  limitranges: true
+  mutatingwebhookconfigurations: false
+  namespaces: true
+  networkpolicies: false
+  nodes: true
+  persistentvolumeclaims: true
+  persistentvolumes: true
+  poddisruptionbudgets: true
+  pods: true
+  replicasets: true
+  replicationcontrollers: true
+  resourcequotas: true
+  secrets: true
+  services: true
+  statefulsets: true
+  storageclasses: true
+  validatingwebhookconfigurations: false
+  verticalpodautoscalers: false
+  volumeattachements: false
+customLabels: {}
+hostNetwork: false
+image:
+  pullPolicy: IfNotPresent
+  repository: quay.io/coreos/kube-state-metrics
+  tag: v1.9.2
+namespaceOverride: ""
+nodeSelector: {}
+podAnnotations: {}
+podSecurityPolicy:
+  annotations: {}
+  enabled: false
+prometheus:
+  monitor:
+    additionalLabels: {}
+    enabled: false
+    honorLabels: false
+    namespace: ""
+prometheusScrape: true
+rbac:
+  create: true
+replicas: 1
+securityContext:
+  enabled: true
+  fsGroup: 65534
+  runAsUser: 65534
+service:
+  annotations: {}
+  loadBalancerIP: ""
+  nodePort: 0
+  port: 8080
+  type: ClusterIP
+serviceAccount:
+  create: true
+  imagePullSecrets: []
+  name: null
+tolerations: []
