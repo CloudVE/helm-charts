@@ -8,7 +8,7 @@
 # This script will package cloudlaunch, cloudlaunchserver, cloudman, and galaxy
 # and ignore outside dependencies for all charts except 
 
-REPO_NAME=cloudve
+REPO_NAME=almahmoud
 BRANCH_NAME=master
 
 rm -rf ../cloudlaunch-helm/cloudlaunchserver/charts
