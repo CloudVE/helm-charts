@@ -3,13 +3,13 @@ entries:
   cloudlaunch:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-02-05T18:15:29.07704-05:00"
+    created: "2020-02-06T13:36:25.904746-05:00"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
       version: 0.3.0
     description: A Helm chart for CloudLaunch, including the server and web UI
-    digest: 16d2b3f79cdfe235472a751116b7933fa059c7d44c406b89adb3a1171095d8f2
+    digest: 3eacd5d5c888d9ce328e50ce5b846fb8927fb52335b82c4d6b796219854eae84
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
@@ -18,7 +18,7 @@ entries:
   cloudlaunchserver:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-02-05T18:15:29.086176-05:00"
+    created: "2020-02-06T13:36:25.913357-05:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -28,7 +28,7 @@ entries:
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: 1.38.2
     description: A Helm chart for the CloudLaunch server/api component
-    digest: 7f29d63519f377f1aab32f28ef0209a4962348ed11851ac6e379fccbd19a585c
+    digest: d19457a41a8d89c52d142f549b435905c13d0fc9c6138c7b06e6268674f8129e
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunchserver
     urls:
@@ -37,7 +37,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-02-05T18:15:29.130009-05:00"
+    created: "2020-02-06T13:36:25.962584-05:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -53,7 +53,7 @@ entries:
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: 3.0.2
     description: A CloudMan Helm chart for Kubernetes
-    digest: 4b6195e28b0fef7a71a6d668e512bc1a7fa5fbf40dfe0a528f49a1e4f0e2bfe3
+    digest: 45d63b44dadc53d338b795227076468cec8272c9b31cf04652618ed383104cb3
     name: cloudman
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudman-0.3.1.tgz
@@ -61,7 +61,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-02-05T18:15:29.142347-05:00"
+    created: "2020-02-06T13:36:25.978453-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -78,7 +78,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-02-05T18:15:29.145093-05:00"
+    created: "2020-02-06T13:36:25.979972-05:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 2eed1309cc555ced5b315de31495669351b299b7b1150da3825c87b296d4aade
@@ -86,4 +86,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-cvmfs-csi-1.2.0.tgz
     version: 1.2.0
-generated: "2020-02-05T18:15:29.064693-05:00"
+generated: "2020-02-06T13:36:25.893499-05:00"
