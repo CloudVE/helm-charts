@@ -3,7 +3,7 @@ entries:
   cloudlaunch:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-02-06T14:41:16.954541-05:00"
+    created: "2020-02-06T15:49:16.750902-05:00"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -18,7 +18,7 @@ entries:
   cloudlaunchserver:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-02-06T14:41:16.962149-05:00"
+    created: "2020-02-06T15:49:16.758067-05:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -37,7 +37,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-02-06T14:41:17.008832-05:00"
+    created: "2020-02-06T15:49:16.792361-05:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -53,7 +53,7 @@ entries:
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: 3.0.2
     description: A CloudMan Helm chart for Kubernetes
-    digest: 65e864ff4cc7096c60ba764352a44147f1051ef99bfab5b9ff1803a59bdcb45e
+    digest: d988d4858ec5fefaedd7dea0bd533e72a17dc973ba3011242aa64b371440740f
     name: cloudman
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudman-0.3.1.tgz
@@ -61,7 +61,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-02-06T14:41:17.020654-05:00"
+    created: "2020-02-06T15:49:16.804201-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -78,7 +78,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-02-06T14:41:17.022701-05:00"
+    created: "2020-02-06T15:49:16.809042-05:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 2eed1309cc555ced5b315de31495669351b299b7b1150da3825c87b296d4aade
@@ -86,4 +86,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-cvmfs-csi-1.2.0.tgz
     version: 1.2.0
-generated: "2020-02-06T14:41:16.94209-05:00"
+generated: "2020-02-06T15:49:16.740139-05:00"
