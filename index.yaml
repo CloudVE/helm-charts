@@ -3,7 +3,7 @@ entries:
   cloudlaunch:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-02-06T15:49:16.750902-05:00"
+    created: "2020-02-06T19:30:33.976201-05:00"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -18,7 +18,7 @@ entries:
   cloudlaunchserver:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-02-06T15:49:16.758067-05:00"
+    created: "2020-02-06T19:30:34.014296-05:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -37,7 +37,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-02-06T15:49:16.792361-05:00"
+    created: "2020-02-06T19:30:34.08321-05:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -61,7 +61,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-02-06T15:49:16.804201-05:00"
+    created: "2020-02-06T19:30:34.096073-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -78,12 +78,22 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-02-06T15:49:16.809042-05:00"
+    created: "2020-02-06T19:30:34.100938-05:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
-    digest: 2eed1309cc555ced5b315de31495669351b299b7b1150da3825c87b296d4aade
+    digest: 3ccd7a6abbc35ea2fcb1065555133647d61f3a715f2d1ca13a2b17a34b4af63e
+    name: galaxy-cvmfs-csi
+    urls:
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-cvmfs-csi-1.3.0.tgz
+    version: 1.3.0
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: "2020-02-06T19:30:34.0984-05:00"
+    description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
+      for Galaxy repositories
+    digest: 24cccefd2f6ec5347c8538ed6f2e817091b0e8d3e75852323d1a57486c0dc6f5
     name: galaxy-cvmfs-csi
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-cvmfs-csi-1.2.0.tgz
     version: 1.2.0
-generated: "2020-02-06T15:49:16.740139-05:00"
+generated: "2020-02-06T19:30:33.894085-05:00"
