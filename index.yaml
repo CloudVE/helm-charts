@@ -1,20 +1,34 @@
 apiVersion: v1
 entries:
   cloudlaunch:
-  - appVersion: 2.0.2
-    created: "2020-02-07T23:05:47.795623+05:30"
+  - apiVersion: v1
+    appVersion: 2.0.2
+    created: "2020-02-07T19:03:13.999621-05:00"
+    dependencies:
+    - name: cloudlaunchserver
+      repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
+      version: 0.3.0
     description: A Helm chart for CloudLaunch, including the server and web UI
-    digest: 1545dc928cfe31bb138bceafe4951eb55fa4faf39723d6321afefd0b64755203
+    digest: 03191a31df715060863830ff7a9473aa1cd55f9f4ba7543a5b9e2b996da0ae85
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
     - https://raw.githubusercontent.com/cloudve/helm-charts/gvl-5.0/charts/cloudlaunch-0.3.0.tgz
     version: 0.3.0
   cloudlaunchserver:
-  - appVersion: 2.0.2
-    created: "2020-02-07T23:05:47.805073+05:30"
+  - apiVersion: v1
+    appVersion: 2.0.2
+    created: "2020-02-07T19:03:14.006498-05:00"
+    dependencies:
+    - name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 8.3.0
+    - alias: rabbitmq
+      name: rabbitmq-ha
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 1.38.2
     description: A Helm chart for the CloudLaunch server/api component
-    digest: 1224b97aeed7749bc331217ae1d6d69979ec67548bde6fdbef512b5ca8dd6e52
+    digest: 69dfbf80aa111156853a841db3baa6ad09876751bd0b4e297efd9f6e1707840e
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunchserver
     urls:
@@ -23,9 +37,23 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-02-07T23:05:47.861359+05:30"
+    created: "2020-02-07T19:03:14.043029-05:00"
+    dependencies:
+    - name: cloudlaunch
+      repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
+      version: 0.3.0
+    - name: keycloak
+      repository: https://codecentric.github.io/helm-charts
+      version: 6.0.0
+    - alias: prometheus
+      name: prometheus-operator
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 8.5.15
+    - name: influxdb
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 3.0.2
     description: A CloudMan Helm chart for Kubernetes
-    digest: e4ec668fd61b8fc54465767925060f8e43f6cb913f0e00ed609a2974fefddd8d
+    digest: 402d40a43973efbb56e0ec75035e99785fd8ebc08c166b53377194da5b7139e8
     name: cloudman
     urls:
     - https://raw.githubusercontent.com/cloudve/helm-charts/gvl-5.0/charts/cloudman-0.3.1.tgz
@@ -33,10 +61,15 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-02-07T23:05:47.882409+05:30"
+    created: "2020-02-07T19:03:14.054737-05:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 8.1.4
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
-    digest: a3f4150f5d8dd2038e85657d08edfcb57158a9b174e8ca67d1dd1213c3498844
+    digest: 339285aaaee65aa4a9e7ef5e24e37d39e88d9faea52d46eaf70b7550e61e4b59
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
@@ -45,7 +78,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-02-07T23:05:47.883768+05:30"
+    created: "2020-02-07T19:03:14.058796-05:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: f739ce727f8bffaff77622a6e3ebcafbc07643204a6072bc5a3cca809f4be695
@@ -53,4 +86,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/cloudve/helm-charts/gvl-5.0/charts/galaxy-cvmfs-csi-1.3.0.tgz
     version: 1.3.0
-generated: "2020-02-07T23:05:47.785467+05:30"
+generated: "2020-02-07T19:03:13.989452-05:00"
