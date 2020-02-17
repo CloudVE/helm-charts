@@ -3,7 +3,7 @@ entries:
   cloudlaunch:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-02-06T23:00:14.767249-05:00"
+    created: "2020-02-17T17:03:03.37715-05:00"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -13,12 +13,12 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudlaunch-0.3.0.tgz
+    - https://github.com/almahmoud/helm-charts/raw/master/charts/cloudlaunch-0.3.0.tgz
     version: 0.3.0
   cloudlaunchserver:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-02-06T23:00:14.776486-05:00"
+    created: "2020-02-17T17:03:03.414176-05:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -32,12 +32,12 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunchserver
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudlaunchserver-0.3.0.tgz
+    - https://github.com/almahmoud/helm-charts/raw/master/charts/cloudlaunchserver-0.3.0.tgz
     version: 0.3.0
   cloudman:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-02-06T23:00:14.812369-05:00"
+    created: "2020-02-17T17:03:03.491425-05:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -56,12 +56,12 @@ entries:
     digest: 756272ce090ceb2bd9aa52a1dde424d6a3681d3902674884fd3713ebbfaff894
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudman-0.3.1.tgz
+    - https://github.com/almahmoud/helm-charts/raw/master/charts/cloudman-0.3.1.tgz
     version: 0.3.1
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-02-06T23:00:14.823848-05:00"
+    created: "2020-02-17T17:03:03.503358-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -73,27 +73,37 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-3.2.0.tgz
+    - https://github.com/almahmoud/helm-charts/raw/master/charts/galaxy-3.2.0.tgz
     version: 3.2.0
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-02-06T23:00:14.830406-05:00"
+    created: "2020-02-17T17:03:03.550374-05:00"
+    description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
+      for Galaxy repositories
+    digest: b7bd96d9571d5422384d6bf2d322e1ea64a81580ce5438ec1ca8f325a6e867aa
+    name: galaxy-cvmfs-csi
+    urls:
+    - https://github.com/almahmoud/helm-charts/raw/master/charts/galaxy-cvmfs-csi-1.3.1.tgz
+    version: 1.3.1
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: "2020-02-17T17:03:03.547678-05:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: f739ce727f8bffaff77622a6e3ebcafbc07643204a6072bc5a3cca809f4be695
     name: galaxy-cvmfs-csi
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-cvmfs-csi-1.3.0.tgz
+    - https://github.com/almahmoud/helm-charts/raw/master/charts/galaxy-cvmfs-csi-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-02-06T23:00:14.828383-05:00"
+    created: "2020-02-17T17:03:03.506792-05:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 24cccefd2f6ec5347c8538ed6f2e817091b0e8d3e75852323d1a57486c0dc6f5
     name: galaxy-cvmfs-csi
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-cvmfs-csi-1.2.0.tgz
+    - https://github.com/almahmoud/helm-charts/raw/master/charts/galaxy-cvmfs-csi-1.2.0.tgz
     version: 1.2.0
-generated: "2020-02-06T23:00:14.756611-05:00"
+generated: "2020-02-17T17:03:03.361046-05:00"
