@@ -3,13 +3,13 @@ entries:
   cloudlaunch:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-04-01T14:25:09.506106-04:00"
+    created: "2020-04-01T15:34:21.918745-04:00"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
       version: 0.3.0
     description: A Helm chart for CloudLaunch, including the server and web UI
-    digest: f50c7bf5aec1edcb01bd1ec4ba412ffbeaaea6aab3882e5e0cc9aa93403aaed0
+    digest: abc074ea13d5ed091f43cf8eb7ce837a038a3f8d3f1a34192af131535a512d97
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
@@ -18,7 +18,7 @@ entries:
   cloudlaunchserver:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-04-01T14:25:09.511639-04:00"
+    created: "2020-04-01T15:34:21.924205-04:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -28,7 +28,7 @@ entries:
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: 1.38.2
     description: A Helm chart for the CloudLaunch server/api component
-    digest: 87e6b4901e9a75cd3a5487f79fdeb99092853f08928096175a33cac8c897d881
+    digest: 3534603b32df9ebdc850a9d0e76d458196a823f3a07b8a3effd2f481de8e1314
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunchserver
     urls:
@@ -37,7 +37,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-04-01T14:25:09.575458-04:00"
+    created: "2020-04-01T15:34:21.982886-04:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -60,7 +60,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-04-01T14:25:09.543411-04:00"
+    created: "2020-04-01T15:34:21.953276-04:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -84,7 +84,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-04-01T14:25:09.589002-04:00"
+    created: "2020-04-01T15:34:21.994136-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -92,7 +92,7 @@ entries:
       version: 8.1.4
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
-    digest: f5e6520379efa89be42fc48daf792f3270bf3c35b9e4634466cf845cf5805fe7
+    digest: 0721f5295e01a399f4ae7aa540b7b5929f7ea07d1f91dc4b52fd4d802cf01ce5
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
@@ -101,7 +101,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-04-01T14:25:09.597011-04:00"
+    created: "2020-04-01T15:34:22.001875-04:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: b7bd96d9571d5422384d6bf2d322e1ea64a81580ce5438ec1ca8f325a6e867aa
@@ -111,7 +111,7 @@ entries:
     version: 1.3.1
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-04-01T14:25:09.595131-04:00"
+    created: "2020-04-01T15:34:21.999924-04:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: f739ce727f8bffaff77622a6e3ebcafbc07643204a6072bc5a3cca809f4be695
@@ -121,7 +121,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-04-01T14:25:09.593072-04:00"
+    created: "2020-04-01T15:34:21.997196-04:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 24cccefd2f6ec5347c8538ed6f2e817091b0e8d3e75852323d1a57486c0dc6f5
@@ -129,4 +129,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-cvmfs-csi-1.2.0.tgz
     version: 1.2.0
-generated: "2020-04-01T14:25:09.49563-04:00"
+generated: "2020-04-01T15:34:21.909391-04:00"
