@@ -13,6 +13,10 @@
 
 REPO_NAME=cloudve
 BRANCH_NAME=master
+# Packaged CLServer and CL charts are automatically added as the dependency charts for
+# CL and CM respectively
+CL_VERSION=0.4.0
+CLSERVER_VERSION=0.4.0
 
 rm -rf ../cloudlaunch-helm/cloudlaunchserver/charts
 rm -rf ../cloudlaunch-helm/cloudlaunch/charts
@@ -30,10 +34,10 @@ cd ../../helm-charts/charts
 echo "\nPackaging cloudlaunchserver!\n"
 helm package ../../cloudlaunch-helm/cloudlaunchserver/
 mkdir -p ../../cloudlaunch-helm/cloudlaunch/charts
-cp cloudlaunchserver-0.3.0.tgz ../../cloudlaunch-helm/cloudlaunch/charts/
+cp cloudlaunchserver-$CLSERVER_VERSION.tgz ../../cloudlaunch-helm/cloudlaunch/charts/
 echo "\nPackaging cloudlaunch!\n"
 helm package ../../cloudlaunch-helm/cloudlaunch
-cp cloudlaunch-0.3.0.tgz ../../cloudman-helm/cloudman/charts/
+cp cloudlaunch-$CL_VERSION.tgz ../../cloudman-helm/cloudman/charts/
 echo "\nPackaging cloudman!\n"
 helm package ../../cloudman-helm/cloudman/
 export CHARTS_DIR=$(pwd)
