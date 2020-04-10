@@ -45,7 +45,10 @@ cd ../../galaxy-helm/galaxy
 helm dependency update
 echo "\nPackaging galaxy!\n"
 sh scripts/helm_package $CHARTS_DIR
-cd ../../helm-charts
+cd ../../helm-charts/charts
+echo "\nPackaging Galaxy CVMFS-CSI!\n"
+helm package ../../galaxy-cvmfs-csi-helm/galaxy-cvmfs-csi/
+cd ..
 rm -f index.yaml
 echo "\nReindexing!\n"
 helm repo index . --url https://raw.githubusercontent.com/$REPO_NAME/helm-charts/$BRANCH_NAME/
