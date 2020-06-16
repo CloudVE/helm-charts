@@ -3,7 +3,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-06-16T16:17:32.976873-04:00"
+    created: "2020-06-16T17:50:04.15739-04:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -19,7 +19,7 @@ entries:
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: 3.0.2
     description: A CloudMan Helm chart for Kubernetes
-    digest: 65dc1767c5eed3e578c38f293182cf26c7372251ece0813ee449442f12a90f75
+    digest: 3f1a150c4c747d5ed75b223a031deb1034ea626c763a9ee31f0cdfdb9f28375a
     name: cloudman
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudman-0.4.0.tgz
@@ -27,7 +27,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-06-16T16:17:32.988341-04:00"
+    created: "2020-06-16T17:50:04.168091-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -44,7 +44,7 @@ entries:
   owncloud:
   - apiVersion: v1
     appVersion: 10.4.1
-    created: "2020-06-16T16:17:32.991746-04:00"
+    created: "2020-06-16T17:50:04.175078-04:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -73,7 +73,7 @@ entries:
   projman:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2020-06-16T16:17:32.992505-04:00"
+    created: "2020-06-16T17:50:04.176682-04:00"
     description: PVC for shared filesystem within a CloudMan project
     digest: 3264c1eff2ff9b70eb00f642f5b99dc5852014820b425f319ef31291a865d796
     name: projman
@@ -84,7 +84,7 @@ entries:
   rstudio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-16T16:17:32.993304-04:00"
+    created: "2020-06-16T17:50:04.178902-04:00"
     description: A Helm chart for RStudio on Kubernetes
     digest: daa62bee5850c3956fe7c3cd5f3a4a929387cb2b864bb47887bb5496a7a596af
     name: rstudio
@@ -95,7 +95,7 @@ entries:
   terminalman:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-06-16T16:17:32.994707-04:00"
+    created: "2020-06-16T17:50:04.180202-04:00"
     dependencies:
     - name: proxyinjector
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -107,4 +107,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/terminalman-0.2.0.tgz
     version: 0.2.0
-generated: "2020-06-16T16:17:32.944347-04:00"
+generated: "2020-06-16T17:50:04.126706-04:00"
