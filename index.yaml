@@ -3,7 +3,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-06-16T17:50:04.15739-04:00"
+    created: "2020-06-16T19:13:26.436076-04:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -27,7 +27,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-06-16T17:50:04.168091-04:00"
+    created: "2020-06-16T19:13:26.447558-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -35,16 +35,27 @@ entries:
       version: 8.1.4
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
-    digest: 032c2a758e9b45e523f71a86329115076380a8b797e24e061e36f395502230b9
+    digest: d9e06b17132d35b346c5bf81b9661ffd83945d87c90e7e260f39c0a32c17090c
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-3.4.0.tgz
     version: 3.4.0
+  galaxy-cvmfs-csi:
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: "2020-06-16T19:13:26.448924-04:00"
+    description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
+      for Galaxy repositories
+    digest: a7b36d1eac6a2ee50e6b920953d74801fd4bd712279a50b1ea738dadc472f23a
+    name: galaxy-cvmfs-csi
+    urls:
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-cvmfs-csi-1.3.2.tgz
+    version: 1.3.2
   owncloud:
   - apiVersion: v1
     appVersion: 10.4.1
-    created: "2020-06-16T17:50:04.175078-04:00"
+    created: "2020-06-16T19:13:26.455792-04:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -73,7 +84,7 @@ entries:
   projman:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2020-06-16T17:50:04.176682-04:00"
+    created: "2020-06-16T19:13:26.491913-04:00"
     description: PVC for shared filesystem within a CloudMan project
     digest: 3264c1eff2ff9b70eb00f642f5b99dc5852014820b425f319ef31291a865d796
     name: projman
@@ -84,7 +95,7 @@ entries:
   rstudio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-16T17:50:04.178902-04:00"
+    created: "2020-06-16T19:13:26.494369-04:00"
     description: A Helm chart for RStudio on Kubernetes
     digest: daa62bee5850c3956fe7c3cd5f3a4a929387cb2b864bb47887bb5496a7a596af
     name: rstudio
@@ -95,7 +106,7 @@ entries:
   terminalman:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-06-16T17:50:04.180202-04:00"
+    created: "2020-06-16T19:13:26.496378-04:00"
     dependencies:
     - name: proxyinjector
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -107,4 +118,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/terminalman-0.2.0.tgz
     version: 0.2.0
-generated: "2020-06-16T17:50:04.126706-04:00"
+generated: "2020-06-16T19:13:26.404569-04:00"
