@@ -3,7 +3,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-06-26T17:12:25.797994-04:00"
+    created: "2020-07-10T15:47:46.095949-04:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -26,7 +26,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-06-26T17:12:25.818847-04:00"
+    created: "2020-07-10T15:47:46.122886-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -34,7 +34,7 @@ entries:
       version: 8.1.4
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
-    digest: c2168afe2dcd211cef438f3d535b24c35efd2ffde89c3e34ae2812fbb2b1a296
+    digest: 275e510ff7c6c297c7fbc721773af45b29252cdf6e853d1da87e7847fe654628
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
@@ -42,7 +42,7 @@ entries:
     version: 3.4.2
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-06-26T17:12:25.80822-04:00"
+    created: "2020-07-10T15:47:46.110496-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -59,7 +59,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-06-26T17:12:25.820009-04:00"
+    created: "2020-07-10T15:47:46.124861-04:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 32a5c3dd814f03b61621b84e0a84d32cbbfcef32e3a2d99127004adbcbfd59f1
@@ -70,7 +70,7 @@ entries:
   galaxykubeman:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-06-26T17:12:25.832079-04:00"
+    created: "2020-07-10T15:47:46.141305-04:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -90,4 +90,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.2.0.tgz
     version: 0.2.0
-generated: "2020-06-26T17:12:25.784465-04:00"
+generated: "2020-07-10T15:47:46.078425-04:00"
