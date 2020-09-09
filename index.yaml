@@ -3,7 +3,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-09-08T23:00:03.971090966Z"
+    created: "2020-09-09T17:21:39.662342544Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -26,7 +26,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-09-08T23:00:03.992291209Z"
+    created: "2020-09-09T17:21:39.698196219Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -42,7 +42,7 @@ entries:
     version: 3.4.2
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-09-08T23:00:03.982314989Z"
+    created: "2020-09-09T17:21:39.681590045Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -59,7 +59,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-09-08T23:00:03.993186311Z"
+    created: "2020-09-09T17:21:39.69927893Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 32a5c3dd814f03b61621b84e0a84d32cbbfcef32e3a2d99127004adbcbfd59f1
@@ -70,7 +70,29 @@ entries:
   galaxykubeman:
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-09-08T23:00:04.075524977Z"
+    created: "2020-09-09T17:21:39.835372855Z"
+    dependencies:
+    - alias: nfs
+      name: nfs-server-provisioner
+      repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
+      version: 1.1.2
+    - alias: cvmfs
+      name: galaxy-cvmfs-csi
+      repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
+      version: 1.3.2
+    - name: galaxy
+      repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
+      version: 3.4.2
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
+    digest: fe91ef872cdddd8e9a63af10ab16081356fc6ae6008fe6273bc4c6c610b04314
+    name: galaxykubeman
+    urls:
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.5.1.tgz
+    version: 0.5.1
+  - apiVersion: v1
+    appVersion: "20.05"
+    created: "2020-09-09T17:21:39.821189107Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -92,7 +114,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-09-08T23:00:04.063321052Z"
+    created: "2020-09-09T17:21:39.806538153Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -114,7 +136,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-09-08T23:00:04.051257728Z"
+    created: "2020-09-09T17:21:39.790656487Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -136,7 +158,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-09-08T23:00:04.039926405Z"
+    created: "2020-09-09T17:21:39.775138025Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -158,7 +180,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-09-08T23:00:04.026614879Z"
+    created: "2020-09-09T17:21:39.759750364Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -180,7 +202,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-09-08T23:00:04.004274634Z"
+    created: "2020-09-09T17:21:39.717297619Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -203,7 +225,7 @@ entries:
   nfs-server-provisioner:
   - apiVersion: v1
     appVersion: 2.3.0
-    created: "2020-09-08T23:00:04.076249378Z"
+    created: "2020-09-09T17:21:39.836263465Z"
     description: nfs-server-provisioner is an out-of-tree dynamic provisioner for
       Kubernetes. You can use it to quickly & easily deploy shared storage that works
       almost anywhere.
@@ -227,4 +249,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/nfs-server-provisioner-1.1.2.tgz
     version: 1.1.2
-generated: "2020-09-08T23:00:03.938508298Z"
+generated: "2020-09-09T17:21:39.641171922Z"
