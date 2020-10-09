@@ -3,7 +3,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-09-22T16:00:38.399583662Z"
+    created: "2020-10-09T17:56:06.99070117Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -26,7 +26,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-09-22T16:00:38.41846348Z"
+    created: "2020-10-09T17:56:07.013873514Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -42,7 +42,7 @@ entries:
     version: 3.4.2
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-09-22T16:00:38.40845897Z"
+    created: "2020-10-09T17:56:07.002443744Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -59,7 +59,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-09-22T16:00:38.419065481Z"
+    created: "2020-10-09T17:56:07.014654918Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 32a5c3dd814f03b61621b84e0a84d32cbbfcef32e3a2d99127004adbcbfd59f1
@@ -69,8 +69,30 @@ entries:
     version: 1.3.2
   galaxykubeman:
   - apiVersion: v1
+    appVersion: "20.09"
+    created: "2020-10-09T17:56:07.188584982Z"
+    dependencies:
+    - alias: nfs
+      name: nfs-server-provisioner
+      repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
+      version: 1.1.2
+    - alias: cvmfs
+      name: galaxy-cvmfs-csi
+      repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
+      version: 1.3.2
+    - name: galaxy
+      repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
+      version: 3.5.3
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
+    digest: 8cdfef338852a7a0bcdb9ff1149cdace2b1c15d8a5f1042d59685cb3d5255813
+    name: galaxykubeman
+    urls:
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-09-22T16:00:38.544586404Z"
+    created: "2020-10-09T17:56:07.171769579Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -92,7 +114,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-09-22T16:00:38.533941194Z"
+    created: "2020-10-09T17:56:07.158550799Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -114,7 +136,7 @@ entries:
     version: 0.5.4
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-09-22T16:00:38.523864084Z"
+    created: "2020-10-09T17:56:07.14577102Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -136,7 +158,7 @@ entries:
     version: 0.5.3
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-09-22T16:00:38.513459374Z"
+    created: "2020-10-09T17:56:07.131855235Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -158,7 +180,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-09-22T16:00:38.502226663Z"
+    created: "2020-10-09T17:56:07.117691549Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -180,7 +202,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-09-22T16:00:38.492607553Z"
+    created: "2020-10-09T17:56:07.104929071Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -202,7 +224,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-09-22T16:00:38.481808043Z"
+    created: "2020-10-09T17:56:07.091521389Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -224,7 +246,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-09-22T16:00:38.471108932Z"
+    created: "2020-10-09T17:56:07.078388208Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -246,7 +268,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-09-22T16:00:38.459784821Z"
+    created: "2020-10-09T17:56:07.064901926Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -268,7 +290,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-09-22T16:00:38.449506711Z"
+    created: "2020-10-09T17:56:07.050967441Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -290,7 +312,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-09-22T16:00:38.429917992Z"
+    created: "2020-10-09T17:56:07.027473997Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -313,7 +335,7 @@ entries:
   nfs-server-provisioner:
   - apiVersion: v1
     appVersion: 2.3.0
-    created: "2020-09-22T16:00:38.545208505Z"
+    created: "2020-10-09T17:56:07.189319087Z"
     description: nfs-server-provisioner is an out-of-tree dynamic provisioner for
       Kubernetes. You can use it to quickly & easily deploy shared storage that works
       almost anywhere.
@@ -337,4 +359,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/nfs-server-provisioner-1.1.2.tgz
     version: 1.1.2
-generated: "2020-09-22T16:00:38.378402041Z"
+generated: "2020-10-09T17:56:06.975180673Z"
