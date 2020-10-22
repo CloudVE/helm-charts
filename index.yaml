@@ -3,7 +3,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-10-21T22:47:49.0739006Z"
+    created: "2020-10-22T23:23:41.730275825Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -26,7 +26,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-10-21T22:47:49.095716873Z"
+    created: "2020-10-22T23:23:41.750331812Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -42,7 +42,7 @@ entries:
     version: 3.4.2
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-10-21T22:47:49.084875486Z"
+    created: "2020-10-22T23:23:41.740113219Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -59,7 +59,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-10-21T22:47:49.097141072Z"
+    created: "2020-10-22T23:23:41.751546811Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 8b02d7a447724c4bc209dc255bd199b6c0794b846c4a4212a7394ab3addb5b2f
@@ -69,7 +69,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-10-21T22:47:49.096424273Z"
+    created: "2020-10-22T23:23:41.750929512Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 32a5c3dd814f03b61621b84e0a84d32cbbfcef32e3a2d99127004adbcbfd59f1
@@ -80,7 +80,7 @@ entries:
   galaxykubeman:
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2020-10-21T22:47:49.325841099Z"
+    created: "2020-10-22T23:23:41.920022903Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -95,14 +95,14 @@ entries:
       version: 3.5.3
     description: A chart for deploying a single Galaxy instance and its management
       dependencies on Kubernetes
-    digest: a9c7c2605831708bed49857b326eb010ee14793aca877466023bc1c4dc73eb32
+    digest: b58887f6c7fe001867ef848c0f94db7b93581fc7620dee0189e17c06888261df
     name: galaxykubeman
     urls:
     - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.7.2.tgz
     version: 0.7.2
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2020-10-21T22:47:49.306279822Z"
+    created: "2020-10-22T23:23:41.907392311Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -124,7 +124,7 @@ entries:
     version: 0.7.1
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2020-10-21T22:47:49.287002545Z"
+    created: "2020-10-22T23:23:41.894939919Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -146,7 +146,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-10-21T22:47:49.275168959Z"
+    created: "2020-10-22T23:23:41.882739227Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -168,7 +168,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-10-21T22:47:49.262827174Z"
+    created: "2020-10-22T23:23:41.870988634Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -190,7 +190,7 @@ entries:
     version: 0.5.4
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-10-21T22:47:49.247746492Z"
+    created: "2020-10-22T23:23:41.859023542Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -212,7 +212,7 @@ entries:
     version: 0.5.3
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-10-21T22:47:49.228237615Z"
+    created: "2020-10-22T23:23:41.848200449Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -234,7 +234,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-10-21T22:47:49.202770846Z"
+    created: "2020-10-22T23:23:41.837029956Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -256,7 +256,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-10-21T22:47:49.189373362Z"
+    created: "2020-10-22T23:23:41.825231164Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -278,7 +278,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-10-21T22:47:49.17405408Z"
+    created: "2020-10-22T23:23:41.814069571Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -300,7 +300,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2020-10-21T22:47:49.161507795Z"
+    created: "2020-10-22T23:23:41.803204478Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -322,7 +322,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-10-21T22:47:49.147520912Z"
+    created: "2020-10-22T23:23:41.792791985Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -344,7 +344,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-10-21T22:47:49.133148929Z"
+    created: "2020-10-22T23:23:41.781779592Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -366,7 +366,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-10-21T22:47:49.109152857Z"
+    created: "2020-10-22T23:23:41.762589704Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -389,7 +389,7 @@ entries:
   nfs-server-provisioner:
   - apiVersion: v1
     appVersion: 2.3.0
-    created: "2020-10-21T22:47:49.326549398Z"
+    created: "2020-10-22T23:23:41.920700302Z"
     description: nfs-server-provisioner is an out-of-tree dynamic provisioner for
       Kubernetes. You can use it to quickly & easily deploy shared storage that works
       almost anywhere.
@@ -413,4 +413,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/nfs-server-provisioner-1.1.2.tgz
     version: 1.1.2
-generated: "2020-10-21T22:47:49.050583827Z"
+generated: "2020-10-22T23:23:41.712530636Z"
