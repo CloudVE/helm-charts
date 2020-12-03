@@ -11,12 +11,11 @@
 # fork, the final packaged cloudman will have the packaged cloudlaunch version, and not the one
 # downloaded from the dependency.yml)
 
-REPO_NAME=cloudve
-BRANCH_NAME=master
+REPO_NAME=$(basename $(dirname $(git remote get-url origin)))
+BRANCH_NAME=$(git branch --show-current)
 # Packaged CLServer and CL charts are automatically added as the dependency charts for
 # CL and CM respectively
-CL_VERSION=0.4.0
-CLSERVER_VERSION=0.4.0
+echo Packaging as repo: $REPO_NAME, branch: $BRANCH_NAME
 
 rm -rf ../cloudlaunch-helm/cloudlaunchserver/charts
 rm -rf ../cloudlaunch-helm/cloudlaunch/charts
@@ -34,10 +33,10 @@ cd ../../helm-charts/charts
 echo "\nPackaging cloudlaunchserver!\n"
 helm package ../../cloudlaunch-helm/cloudlaunchserver/
 mkdir -p ../../cloudlaunch-helm/cloudlaunch/charts
-cp cloudlaunchserver-$CLSERVER_VERSION.tgz ../../cloudlaunch-helm/cloudlaunch/charts/
+cp cloudlaunchserver-*.tgz ../../cloudlaunch-helm/cloudlaunch/charts/
 echo "\nPackaging cloudlaunch!\n"
 helm package ../../cloudlaunch-helm/cloudlaunch
-cp cloudlaunch-$CL_VERSION.tgz ../../cloudman-helm/cloudman/charts/
+cp cloudlaunch-*.tgz ../../cloudman-helm/cloudman/charts/
 echo "\nPackaging cloudman!\n"
 helm package ../../cloudman-helm/cloudman/
 export CHARTS_DIR=$(pwd)
