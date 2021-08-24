@@ -3,7 +3,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2021-06-28T17:31:33.461464-04:00"
+    created: "2021-08-24T00:05:59.343504491Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -16,16 +16,17 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
       version: 3.4.1
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: d06803a3e9ebe9db96deddd41da9c5e76ae9325aa946198b2ddd74fab01fcfd7
     name: cloudman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/cloudman-0.2.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/cloudman-0.2.0.tgz
     version: 0.2.0
   galaxy:
   - apiVersion: v1
-    appVersion: "21.01"
-    created: "2021-06-28T17:31:33.492802-04:00"
+    appVersion: "21.05"
+    created: "2021-08-24T00:05:59.40150625Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -36,75 +37,102 @@ entries:
       name: galaxy-cvmfs-csi
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
       version: 1.6.0
-    description: Chart for Galaxy, an open, web-based platform for accessible, reproducible, and transparent computational biomedical research.
+    description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
+      and transparent computational biomedical research.
+    digest: bb087f85f3c1d5ae863df4e88c96fad96ddefa9e0403b937775d2d148f894fea
+    icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
+    name: galaxy
+    urls:
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxy-4.5.5.tgz
+    version: 4.5.5
+  - apiVersion: v1
+    appVersion: "21.01"
+    created: "2021-08-24T00:05:59.394789469Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.helm.sh/stable/
+      version: 8.1.4
+    - alias: cvmfs
+      condition: cvmfs.deploy
+      name: galaxy-cvmfs-csi
+      repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
+      version: 1.6.0
+    description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
+      and transparent computational biomedical research.
     digest: 83bf1ab7dc71c9adce029df4ae855ed165b3ae658271e3d75a245e1af6ddbdb4
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxy-4.0.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxy-4.0.0.tgz
     version: 4.0.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2021-06-28T17:31:33.48632-04:00"
+    created: "2021-08-24T00:05:59.380197177Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: 8.1.4
-    description: Chart for Galaxy, an open, web-based platform for accessible, reproducible, and transparent computational biomedical research.
+    description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
+      and transparent computational biomedical research.
     digest: 275e510ff7c6c297c7fbc721773af45b29252cdf6e853d1da87e7847fe654628
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxy-3.4.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxy-3.4.2.tgz
     version: 3.4.2
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2021-06-28T17:31:33.472851-04:00"
+    created: "2021-08-24T00:05:59.360126338Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: 8.1.4
-    description: Chart for Galaxy, an open, web-based platform for accessible, reproducible, and transparent computational biomedical research.
+    description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
+      and transparent computational biomedical research.
     digest: 134cb1ddcf0e906d3ee82dd7d90e1399cd645f1e2521ab679e4a806687feb0db
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxy-3.4.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxy-3.4.1.tgz
     version: 3.4.1
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2021-06-28T17:31:33.497429-04:00"
-    description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration for Galaxy repositories
+    created: "2021-08-24T00:05:59.404030218Z"
+    description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
+      for Galaxy repositories
     digest: 492699bfaa36507c4704b56c24e8af668cba615e20ded171a96a7d5e4f5121ed
     name: galaxy-cvmfs-csi
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxy-cvmfs-csi-1.4.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxy-cvmfs-csi-1.4.1.tgz
     version: 1.4.1
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2021-06-28T17:31:33.495429-04:00"
-    description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration for Galaxy repositories
+    created: "2021-08-24T00:05:59.403191295Z"
+    description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
+      for Galaxy repositories
     digest: 8b02d7a447724c4bc209dc255bd199b6c0794b846c4a4212a7394ab3addb5b2f
     name: galaxy-cvmfs-csi
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxy-cvmfs-csi-1.4.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxy-cvmfs-csi-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2021-06-28T17:31:33.494108-04:00"
-    description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration for Galaxy repositories
+    created: "2021-08-24T00:05:59.402369373Z"
+    description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
+      for Galaxy repositories
     digest: 32a5c3dd814f03b61621b84e0a84d32cbbfcef32e3a2d99127004adbcbfd59f1
     name: galaxy-cvmfs-csi
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxy-cvmfs-csi-1.3.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxy-cvmfs-csi-1.3.2.tgz
     version: 1.3.2
   galaxykubeman:
   - apiVersion: v1
     appVersion: "21.05"
-    created: "2021-06-28T17:31:33.719146-04:00"
+    created: "2021-08-24T00:05:59.784971754Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -117,15 +145,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
       version: 4.0.0
-    description: A chart for deploying and managing a single Galaxy out-of-the-box instance on Managed Kubernetes clusters (GKE)
+    description: A chart for deploying and managing a single Galaxy out-of-the-box
+      instance on Managed Kubernetes clusters (GKE)
     digest: 07b3056f25abaa26510f0dca0fddca2dc2dfc23f1ebdcc8f4bdc5fee16e77200
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-1.1.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2021-06-28T17:31:33.710864-04:00"
+    created: "2021-08-24T00:05:59.765639735Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -138,15 +167,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
       version: 4.0.0
-    description: A chart for deploying and managing a single Galaxy out-of-the-box instance on Managed Kubernetes clusters (GKE)
+    description: A chart for deploying and managing a single Galaxy out-of-the-box
+      instance on Managed Kubernetes clusters (GKE)
     digest: 9840a744fc906548a29b6b6ab57ff911fc6a75e978e5ae7655097ecbca10b33a
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-1.0.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2021-06-28T17:31:33.701538-04:00"
+    created: "2021-08-24T00:05:59.749046289Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -159,15 +189,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
       version: 3.5.3
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: d862869857a717648af012ee965f9fab4d3a3fbbeca4fac9abf9a4e36a536dc2
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.8.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.8.0.tgz
     version: 0.8.0
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2021-06-28T17:31:33.688864-04:00"
+    created: "2021-08-24T00:05:59.730076979Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -180,15 +211,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
       version: 3.5.3
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: 6159dfa4540beea8494a1d2410843a75f862dfe3036b0055b4968a304f0c4322
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.7.3.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.7.3.tgz
     version: 0.7.3
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2021-06-28T17:31:33.673505-04:00"
+    created: "2021-08-24T00:05:59.713034021Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -201,15 +233,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
       version: 3.5.3
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: b58887f6c7fe001867ef848c0f94db7b93581fc7620dee0189e17c06888261df
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.7.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.7.2.tgz
     version: 0.7.2
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2021-06-28T17:31:33.661907-04:00"
+    created: "2021-08-24T00:05:59.69140484Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -222,15 +255,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
       version: 3.5.3
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: dc04632edca6b8ddc60687956eff775aedbacc3cb1c77faff51ee46c77ed40af
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.7.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.7.1.tgz
     version: 0.7.1
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2021-06-28T17:31:33.64949-04:00"
+    created: "2021-08-24T00:05:59.670766785Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -243,15 +277,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
       version: 3.5.3
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: 8cdfef338852a7a0bcdb9ff1149cdace2b1c15d8a5f1042d59685cb3d5255813
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.7.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2021-06-28T17:31:33.638272-04:00"
+    created: "2021-08-24T00:05:59.652440093Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -264,15 +299,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
       version: 3.4.2
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: 0234f0d14259e4b3c66578270d655a4fdda3105747abe7bb31c9d8a205215828
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.6.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2021-06-28T17:31:33.627233-04:00"
+    created: "2021-08-24T00:05:59.632428055Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -285,15 +321,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
       version: 3.4.2
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: c43c1882f46b295d22239213e433fa1ae4b5eeb7d01370c55daaa7679b043ef8
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.5.4.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.5.4.tgz
     version: 0.5.4
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2021-06-28T17:31:33.615525-04:00"
+    created: "2021-08-24T00:05:59.605242724Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -306,15 +343,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
       version: 3.4.2
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: 9f51645f9e9a6a03ad0895934739c5384b4fff748622c36bafb8b22e4b94b8f1
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.5.3.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.5.3.tgz
     version: 0.5.3
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2021-06-28T17:31:33.603639-04:00"
+    created: "2021-08-24T00:05:59.58756765Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -327,15 +365,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
       version: 3.4.2
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: 8425d80324350abcf7f65dc95d1cea0646d7e1c734427956d034a1ded56d9d9b
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.5.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.5.2.tgz
     version: 0.5.2
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2021-06-28T17:31:33.591605-04:00"
+    created: "2021-08-24T00:05:59.566097573Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -348,15 +387,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
       version: 3.4.2
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: fe91ef872cdddd8e9a63af10ab16081356fc6ae6008fe6273bc4c6c610b04314
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.5.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.5.1.tgz
     version: 0.5.1
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2021-06-28T17:31:33.578653-04:00"
+    created: "2021-08-24T00:05:59.546484646Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -369,15 +409,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
       version: 3.4.2
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: d928693ea9ff1ff184b6e481790e499ea55b5badf62ffd9204984c0ab30f5e8c
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.5.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2021-06-28T17:31:33.566962-04:00"
+    created: "2021-08-24T00:05:59.531157334Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -390,15 +431,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
       version: 3.4.2
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: 674874be68b2466c411189698d9c12c2ee55b96b2a9b9c1a929e7c322e96722c
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.4.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.4.1.tgz
     version: 0.4.1
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2021-06-28T17:31:33.555404-04:00"
+    created: "2021-08-24T00:05:59.509040139Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -411,15 +453,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
       version: 3.4.2
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: b5262671307a4f39fcdc4d088cc3c131fb56080f1d436cd4159e007f065e4bff
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.4.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2021-06-28T17:31:33.544218-04:00"
+    created: "2021-08-24T00:05:59.489397412Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -432,15 +475,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
       version: 3.4.2
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: df217bf9215f765d86bca7264497a5007073c523af8024dbb156fb2cb5c848cb
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.3.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2021-06-28T17:31:33.530037-04:00"
+    created: "2021-08-24T00:05:59.46924947Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -453,15 +497,16 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
       version: 3.4.2
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: 677ce22173ee5726865194c6075d5fc2dfbca8bcb5ca94a4ca966c663b1b1ee9
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.2.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2021-06-28T17:31:33.509151-04:00"
+    created: "2021-08-24T00:05:59.430415627Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -474,17 +519,20 @@ entries:
     - name: galaxy
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
       version: 3.4.2
-    description: A chart for deploying a single Galaxy instance and its management dependencies on Kubernetes
+    description: A chart for deploying a single Galaxy instance and its management
+      dependencies on Kubernetes
     digest: 0c417c771c844b65363f6edb733f205f3999146cc9b68c81b09db650263eccd4
     name: galaxykubeman
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/galaxykubeman-0.2.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/galaxykubeman-0.2.0.tgz
     version: 0.2.0
   nfs-server-provisioner:
   - apiVersion: v1
     appVersion: 2.3.0
-    created: "2021-06-28T17:31:33.722194-04:00"
-    description: nfs-server-provisioner is an out-of-tree dynamic provisioner for Kubernetes. You can use it to quickly & easily deploy shared storage that works almost anywhere.
+    created: "2021-08-24T00:05:59.785766975Z"
+    description: nfs-server-provisioner is an out-of-tree dynamic provisioner for
+      Kubernetes. You can use it to quickly & easily deploy shared storage that works
+      almost anywhere.
     digest: 4ecdc8bc0f9c3d4aa513c736c4c494f94636923b1417b6609c3f544ecd8c93fb
     home: https://github.com/kubernetes/charts/tree/master/stable/nfs-server-provisioner
     keywords:
@@ -503,6 +551,6 @@ entries:
     sources:
     - https://github.com/kubernetes-incubator/external-storage/tree/master/nfs
     urls:
-    - https://github.com/CloudVE/helm-charts/raw/anvil/charts/nfs-server-provisioner-1.1.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/nfs-server-provisioner-1.1.2.tgz
     version: 1.1.2
-generated: "2021-06-28T17:31:33.44473-04:00"
+generated: "2021-08-24T00:05:59.316072454Z"
