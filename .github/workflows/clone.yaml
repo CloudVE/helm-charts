@@ -1,0 +1,24 @@
+name: Clone charts repository to cloud buckets
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+jobs:
+  gcs_clone:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - uses: azure/setup-helm@v1
+        with:
+          version: '3.6.3'
+        id: helm_install
+      - run: "mkdir -p gcs/charts && cp charts/galaxy* gcs/charts/ && cp charts/nfs* gcs/charts/ && cd gcs/ && helm repo index . --url https://storage.cloud.google.com/galaxy-anvil/helm"
+      - id: upload-charts
+        uses: google-github-actions/upload-cloud-storage@main
+        with:
+          credentials: ${{ secrets.gcp_credentials }}
+          path: gcs
+          destination: galaxy-anvil/helm
+          parent: false
