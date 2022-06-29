@@ -3,7 +3,7 @@ entries:
   cloudlaunch:
   - apiVersion: v2
     appVersion: 2.0.2
-    created: "2022-06-24T21:07:19.884808+05:30"
+    created: "2022-06-29T06:21:24.510988713Z"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -13,11 +13,11 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudlaunch-0.5.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudlaunch-0.5.1.tgz
     version: 0.5.1
   - apiVersion: v2
     appVersion: 2.0.2
-    created: "2022-06-24T21:07:19.87828+05:30"
+    created: "2022-06-29T06:21:24.503367816Z"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -27,11 +27,11 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudlaunch-0.5.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudlaunch-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2022-06-24T21:07:19.872075+05:30"
+    created: "2022-06-29T06:21:24.494863607Z"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -41,11 +41,11 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudlaunch-0.4.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudlaunch-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2022-06-24T21:07:19.865151+05:30"
+    created: "2022-06-29T06:21:24.486419699Z"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -55,11 +55,11 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudlaunch-0.3.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudlaunch-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2022-06-24T21:07:19.858313+05:30"
+    created: "2022-06-29T06:21:24.480374422Z"
     dependencies:
     - name: cloudlaunch-server
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -69,11 +69,11 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudlaunch-0.2.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudlaunch-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2022-06-24T21:07:19.853576+05:30"
+    created: "2022-06-29T06:21:24.47398974Z"
     dependencies:
     - name: cloudlaunch-server
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -83,12 +83,12 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudlaunch-0.1.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudlaunch-0.1.0.tgz
     version: 0.1.0
   cloudlaunch-server:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2022-06-24T21:07:19.894419+05:30"
+    created: "2022-06-29T06:21:24.521744051Z"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -102,11 +102,11 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch-server
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudlaunch-server-0.2.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudlaunch-server-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2022-06-24T21:07:19.890229+05:30"
+    created: "2022-06-29T06:21:24.51696489Z"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -120,12 +120,12 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch-server
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudlaunch-server-0.1.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudlaunch-server-0.1.0.tgz
     version: 0.1.0
   cloudlaunchserver:
   - apiVersion: v2
     appVersion: 2.0.2
-    created: "2022-06-24T21:07:19.917357+05:30"
+    created: "2022-06-29T06:21:24.550255215Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -139,11 +139,11 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunchserver
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudlaunchserver-0.5.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudlaunchserver-0.5.1.tgz
     version: 0.5.1
   - apiVersion: v2
     appVersion: 2.0.2
-    created: "2022-06-24T21:07:19.911019+05:30"
+    created: "2022-06-29T06:21:24.543360927Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -157,11 +157,11 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunchserver
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudlaunchserver-0.5.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudlaunchserver-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2022-06-24T21:07:19.90583+05:30"
+    created: "2022-06-29T06:21:24.535600228Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -175,11 +175,11 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunchserver
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudlaunchserver-0.4.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudlaunchserver-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2022-06-24T21:07:19.899603+05:30"
+    created: "2022-06-29T06:21:24.528588038Z"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -193,12 +193,12 @@ entries:
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunchserver
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudlaunchserver-0.3.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudlaunchserver-0.3.0.tgz
     version: 0.3.0
   cloudman:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:19.997094+05:30"
+    created: "2022-06-29T06:21:24.662128646Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -214,11 +214,11 @@ entries:
     digest: 96cf0b977637664644322defc0bceb5856cbb3c9c1dbc6af27a7de71f0e63214
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.10.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.10.2.tgz
     version: 0.10.2
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:19.974824+05:30"
+    created: "2022-06-29T06:21:24.62960293Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -234,11 +234,11 @@ entries:
     digest: 606a4bb07f328a0ce1f5fb93950aafe3b41028b3f268580e5af29bb6cf6ec208
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.10.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.10.1.tgz
     version: 0.10.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:19.949147+05:30"
+    created: "2022-06-29T06:21:24.595810298Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -254,11 +254,11 @@ entries:
     digest: 24ffb3e990ea235557176f0d5432d9ce73f6a98f9b14ef5162a4820174551fe2
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.10.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.10.0.tgz
     version: 0.10.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.493227+05:30"
+    created: "2022-06-29T06:21:25.366479952Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -274,11 +274,11 @@ entries:
     digest: 1653e023c2ed7b2d38961f995a539e383a21a5c612ad0489df9590b0bccf5e11
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.9.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.9.1.tgz
     version: 0.9.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.470428+05:30"
+    created: "2022-06-29T06:21:25.333959837Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -294,11 +294,11 @@ entries:
     digest: 0d3f43aa4d4f0fa3d4ca23687aab2e53bba374ec8c4cf6fb458d44faa34427fa
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.9.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.9.0.tgz
     version: 0.9.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.449339+05:30"
+    created: "2022-06-29T06:21:25.300982915Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -314,11 +314,11 @@ entries:
     digest: 9f688ece7fb33b84120d58c2e094f4d7c9680168bdbeb521e375a9b60085dc58
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.8.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.8.2.tgz
     version: 0.8.2
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.427171+05:30"
+    created: "2022-06-29T06:21:25.270023919Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -334,11 +334,11 @@ entries:
     digest: e7641ff6ac1605d682ab5993f7b83192a46b1f97f87700d81c35e1005b49ebe4
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.8.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.8.1.tgz
     version: 0.8.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.401541+05:30"
+    created: "2022-06-29T06:21:25.236531691Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -354,11 +354,11 @@ entries:
     digest: 3a474f83e06671b2d1b2847317c01402630b002ea8b1d3c3e8e32c5406f41ccd
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.8.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.8.0.tgz
     version: 0.8.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.377338+05:30"
+    created: "2022-06-29T06:21:25.203162764Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -377,11 +377,11 @@ entries:
     digest: 2202ca68ceaaa5f2e428c459ab5566e43f45a560df57eebb3776d6988b4b2951
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.7.5.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.7.5.tgz
     version: 0.7.5
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.352802+05:30"
+    created: "2022-06-29T06:21:25.1668433Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -400,11 +400,11 @@ entries:
     digest: b56607d96e55c5bc0b6f4b517cfcdf153ddf23a1b1b67a93ef324af460b9450d
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.6.5.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.6.5.tgz
     version: 0.6.5
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.329589+05:30"
+    created: "2022-06-29T06:21:25.132353059Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -423,11 +423,11 @@ entries:
     digest: 03df0bc7986e9d34e3696c1d9484bf671ce7b3644a6703ed751a8e2bed5f8a7d
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.6.4.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.6.4.tgz
     version: 0.6.4
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.303546+05:30"
+    created: "2022-06-29T06:21:25.097778017Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -446,11 +446,11 @@ entries:
     digest: e4a1dbd4445803fd273f81d30a6f69fd444b411863e3822442660f68b90e93b1
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.6.3.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.6.3.tgz
     version: 0.6.3
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.265864+05:30"
+    created: "2022-06-29T06:21:25.044462535Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -469,11 +469,11 @@ entries:
     digest: c11a8b4474fd7682b452986d4662231eb690ef74b9059c1fd8941bb9281704da
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.6.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.6.2.tgz
     version: 0.6.2
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.244115+05:30"
+    created: "2022-06-29T06:21:25.010163396Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -492,11 +492,11 @@ entries:
     digest: 542ad42baf0ead1f2767606a51427d3d65be1c58507680d1fb8fc8695c90a916
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.6.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.6.1.tgz
     version: 0.6.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.222344+05:30"
+    created: "2022-06-29T06:21:24.976678968Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -515,11 +515,11 @@ entries:
     digest: 13366c907642ac1d0a98bcf5ba3cc4ca5faa9a49593835f8e2a219a3547fb63f
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.6.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.199597+05:30"
+    created: "2022-06-29T06:21:24.943346542Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -538,11 +538,11 @@ entries:
     digest: a0aefc1eaf335d14031f503adb03bda02cbbb226adefec0d68e75d841cbf348f
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.5.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.5.1.tgz
     version: 0.5.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.177985+05:30"
+    created: "2022-06-29T06:21:24.910550222Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -561,11 +561,11 @@ entries:
     digest: 59905e272eed6adc71cb85ed34f6c9765d78a4f0f2a395ed89a19f74fa165a0b
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.5.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.154262+05:30"
+    created: "2022-06-29T06:21:24.876041881Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -584,11 +584,11 @@ entries:
     digest: 27ec1b9a3a5b267642f44b2486e78995b27b16b10e79f63152c0260d99ee7c1f
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.4.3.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.4.3.tgz
     version: 0.4.3
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.127777+05:30"
+    created: "2022-06-29T06:21:24.843940571Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -607,11 +607,11 @@ entries:
     digest: 3de7cd9b421364a48d9b950fb9fc18b3936a344734b487d37b3f4704edaa387d
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.4.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.4.2.tgz
     version: 0.4.2
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.106951+05:30"
+    created: "2022-06-29T06:21:24.812847573Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -630,11 +630,11 @@ entries:
     digest: e11adea655c956d27716fbfd635b0c573eda7d7a1848ce20ee2c51942789944d
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.4.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.4.1.tgz
     version: 0.4.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.084693+05:30"
+    created: "2022-06-29T06:21:24.782518585Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -653,11 +653,11 @@ entries:
     digest: e8124480679f34507b27a87e651071d89edbd8edf0497ad0b322ab9a68fa365a
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.4.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.059647+05:30"
+    created: "2022-06-29T06:21:24.75079068Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -676,11 +676,11 @@ entries:
     digest: b2d21c32848a65e9ed3dfd09f6652edea1cb9d71050f9a9d7f480ab20b812cf1
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.3.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.039122+05:30"
+    created: "2022-06-29T06:21:24.720267389Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -699,11 +699,11 @@ entries:
     digest: 4aa98e1c43a910c98b801897f01bf3128a5deccd9e9b7262694d552d732330ec
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.3.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.017715+05:30"
+    created: "2022-06-29T06:21:24.689971302Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -718,11 +718,11 @@ entries:
     digest: 264ac4e2428528a72a3db420e6685aeb22c6073ed5cd07b0078734a444aed44f
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.3.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:20.007102+05:30"
+    created: "2022-06-29T06:21:24.675867021Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -737,11 +737,11 @@ entries:
     digest: 9e7d73710412c6568f851f0369fdd420e3ae53b3b6da79430111a8a55be2a250
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.2.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-06-24T21:07:19.926003+05:30"
+    created: "2022-06-29T06:21:24.561724162Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master/
@@ -756,22 +756,22 @@ entries:
     digest: 475a0809638c64a908e994879188b29544abbe93bff1bcea6feba244ab8b43f2
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/cloudman-0.1.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/cloudman-0.1.0.tgz
     version: 0.1.0
   csi-rclone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-06-24T21:07:20.494052+05:30"
+    created: "2022-06-29T06:21:25.366972059Z"
     description: CSI plugin for rclone mount
     digest: 50c03a43f745f2896d169dd652d55023565bb8942ed63feffa83c60592ce00c7
     name: csi-rclone
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/csi-rclone-0.1.11.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/csi-rclone-0.1.11.tgz
     version: 0.1.11
   csi-s3:
   - apiVersion: v1
     appVersion: 0.31.3
-    created: "2022-06-24T21:07:20.495561+05:30"
+    created: "2022-06-29T06:21:25.367901071Z"
     description: Container Storage Interface (CSI) driver for S3 volumes
     digest: 1136bdc13702d8babe70c42ba222e5a795c144024c739eb27c07b9a3ddd2d96b
     home: https://github.com/yandex-cloud/k8s-csi-s3
@@ -782,11 +782,11 @@ entries:
     sources:
     - https://github.com/yandex-cloud/k8s-csi-s3/deploy/helm
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/csi-s3-0.31.3.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/csi-s3-0.31.3.tgz
     version: 0.31.3
   - apiVersion: v1
     appVersion: 0.30.9
-    created: "2022-06-24T21:07:20.495146+05:30"
+    created: "2022-06-29T06:21:25.367430865Z"
     description: Container Storage Interface (CSI) driver for S3 volumes
     digest: 0841ee59f1b4e2e84ea81f80ecb4ba669a461ae8d4ceab355922088645e44089
     home: https://github.com/yandex-cloud/k8s-csi-s3
@@ -797,12 +797,12 @@ entries:
     sources:
     - https://github.com/yandex-cloud/k8s-csi-s3/deploy/helm
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/csi-s3-0.30.9.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/csi-s3-0.30.9.tgz
     version: 0.30.9
   ctrox-csi-s3:
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2022-06-24T21:07:20.497435+05:30"
+    created: "2022-06-29T06:21:25.368466178Z"
     description: A Container Storage Interface for S3
     digest: c53546d925b21afe9f3fd6f49a1c0cf93b3f835299a93f289ae4fd304c1dd92e
     home: https://github.com/ctrox/csi-s3
@@ -814,12 +814,39 @@ entries:
     - https://github.com/ctrox/csi-s3/deploy/helm
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/ctrox-csi-s3-0.1.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/ctrox-csi-s3-0.1.0.tgz
     version: 0.1.0
   galaxy:
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2022-06-24T21:07:20.68519+05:30"
+    created: "2022-06-29T06:21:25.628169699Z"
+    dependencies:
+    - alias: postgresql
+      condition: postgresql.deploy
+      name: postgres-operator
+      repository: https://raw.githubusercontent.com/zalando/postgres-operator/master/charts/postgres-operator/
+      tags:
+      - deploy-postgres
+      version: 1.7.0
+    - alias: cvmfs
+      condition: cvmfs.deploy
+      name: galaxy-cvmfs-csi
+      repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
+      tags:
+      - deploy-cvmfs
+      version: 1.6.0
+    description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
+      and transparent computational biomedical research.
+    digest: 4396f7517f7bc499fd0644460d5d233e18ea86846be996a5a1148db0314fe60d
+    icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
+    name: galaxy
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.10.3.tgz
+    version: 4.10.3
+  - apiVersion: v2
+    appVersion: "21.09"
+    created: "2022-06-29T06:21:25.621668516Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -842,11 +869,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.10.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.10.2.tgz
     version: 4.10.2
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2022-06-24T21:07:20.680028+05:30"
+    created: "2022-06-29T06:21:25.614610125Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -869,11 +896,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.10.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.10.1.tgz
     version: 4.10.1
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2022-06-24T21:07:20.675282+05:30"
+    created: "2022-06-29T06:21:25.608398146Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -896,11 +923,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.10.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.10.0.tgz
     version: 4.10.0
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2022-06-24T21:07:20.770855+05:30"
+    created: "2022-06-29T06:21:25.748219934Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -923,11 +950,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.9.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.9.0.tgz
     version: 4.9.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.765877+05:30"
+    created: "2022-06-29T06:21:25.740621237Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -950,11 +977,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.8.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.8.0.tgz
     version: 4.8.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.760796+05:30"
+    created: "2022-06-29T06:21:25.734357357Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -977,11 +1004,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.7.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.7.0.tgz
     version: 4.7.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.756074+05:30"
+    created: "2022-06-29T06:21:25.723819822Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1004,11 +1031,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.6.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.6.1.tgz
     version: 4.6.1
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.751498+05:30"
+    created: "2022-06-29T06:21:25.715614117Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1031,11 +1058,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.6.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.6.0.tgz
     version: 4.6.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.746474+05:30"
+    created: "2022-06-29T06:21:25.70956114Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1058,11 +1085,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.5.6.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.5.6.tgz
     version: 4.5.6
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.741927+05:30"
+    created: "2022-06-29T06:21:25.702340847Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1085,11 +1112,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.5.5.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.5.5.tgz
     version: 4.5.5
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.737829+05:30"
+    created: "2022-06-29T06:21:25.696256369Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1112,11 +1139,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.5.4.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.5.4.tgz
     version: 4.5.4
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.732959+05:30"
+    created: "2022-06-29T06:21:25.689138778Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1139,11 +1166,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.5.3.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.5.3.tgz
     version: 4.5.3
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.72847+05:30"
+    created: "2022-06-29T06:21:25.683423005Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1166,11 +1193,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.5.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.5.2.tgz
     version: 4.5.2
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.7237+05:30"
+    created: "2022-06-29T06:21:25.676509917Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1193,11 +1220,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.5.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.5.1.tgz
     version: 4.5.1
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.719215+05:30"
+    created: "2022-06-29T06:21:25.670815344Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1216,11 +1243,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.5.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.5.0.tgz
     version: 4.5.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.714285+05:30"
+    created: "2022-06-29T06:21:25.664764467Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1239,11 +1266,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.4.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.4.1.tgz
     version: 4.4.1
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.709409+05:30"
+    created: "2022-06-29T06:21:25.658450486Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1262,11 +1289,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.4.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.4.0.tgz
     version: 4.4.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.704577+05:30"
+    created: "2022-06-29T06:21:25.652798214Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1285,11 +1312,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.3.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.3.2.tgz
     version: 4.3.2
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.699867+05:30"
+    created: "2022-06-29T06:21:25.645916826Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1308,11 +1335,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.3.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.3.1.tgz
     version: 4.3.1
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.695037+05:30"
+    created: "2022-06-29T06:21:25.640208753Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1331,11 +1358,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.3.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.3.0.tgz
     version: 4.3.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.690282+05:30"
+    created: "2022-06-29T06:21:25.634239376Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1354,11 +1381,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.2.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.2.0.tgz
     version: 4.2.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.670617+05:30"
+    created: "2022-06-29T06:21:25.601082652Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1377,11 +1404,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.1.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.1.1.tgz
     version: 4.1.1
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.666495+05:30"
+    created: "2022-06-29T06:21:25.59541448Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1400,11 +1427,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.1.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.1.0.tgz
     version: 4.1.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2022-06-24T21:07:20.661467+05:30"
+    created: "2022-06-29T06:21:25.588340189Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1423,11 +1450,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.0.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.0.0.tgz
     version: 4.0.0
   - apiVersion: v2
     appVersion: "21.01"
-    created: "2022-06-24T21:07:20.657386+05:30"
+    created: "2022-06-29T06:21:25.582460114Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1446,11 +1473,11 @@ entries:
     name: galaxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-4.0.0-rc.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-4.0.0-rc.1.tgz
     version: 4.0.0-rc.1
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2022-06-24T21:07:20.558985+05:30"
+    created: "2022-06-29T06:21:25.449534715Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1467,11 +1494,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.11.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.11.0.tgz
     version: 3.11.0
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2022-06-24T21:07:20.526201+05:30"
+    created: "2022-06-29T06:21:25.404524339Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1488,11 +1515,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.10.10.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.10.10.tgz
     version: 3.10.10
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2022-06-24T21:07:20.55393+05:30"
+    created: "2022-06-29T06:21:25.442195621Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1509,11 +1536,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.10.9.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.10.9.tgz
     version: 3.10.9
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2022-06-24T21:07:20.548963+05:30"
+    created: "2022-06-29T06:21:25.436190944Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1530,11 +1557,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.10.8.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.10.8.tgz
     version: 3.10.8
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2022-06-24T21:07:20.5447+05:30"
+    created: "2022-06-29T06:21:25.428760749Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1551,11 +1578,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.10.7.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.10.7.tgz
     version: 3.10.7
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2022-06-24T21:07:20.539832+05:30"
+    created: "2022-06-29T06:21:25.422934974Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1572,11 +1599,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.10.6.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.10.6.tgz
     version: 3.10.6
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2022-06-24T21:07:20.535663+05:30"
+    created: "2022-06-29T06:21:25.415935585Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1593,11 +1620,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.10.5.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.10.5.tgz
     version: 3.10.5
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2022-06-24T21:07:20.530529+05:30"
+    created: "2022-06-29T06:21:25.410246912Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1614,11 +1641,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.10.4.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.10.4.tgz
     version: 3.10.4
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2022-06-24T21:07:20.652417+05:30"
+    created: "2022-06-29T06:21:25.575318423Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1635,11 +1662,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.9.4.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.9.4.tgz
     version: 3.9.4
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2022-06-24T21:07:20.648063+05:30"
+    created: "2022-06-29T06:21:25.569670751Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1656,11 +1683,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.8.4.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.8.4.tgz
     version: 3.8.4
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2022-06-24T21:07:20.643187+05:30"
+    created: "2022-06-29T06:21:25.564045179Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1677,11 +1704,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.6.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.6.0.tgz
     version: 3.6.0
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2022-06-24T21:07:20.638926+05:30"
+    created: "2022-06-29T06:21:25.558360406Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1693,11 +1720,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.5.4.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.5.4.tgz
     version: 3.5.4
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2022-06-24T21:07:20.631264+05:30"
+    created: "2022-06-29T06:21:25.547438266Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1709,11 +1736,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.5.3.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.5.3.tgz
     version: 3.5.3
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2022-06-24T21:07:20.623185+05:30"
+    created: "2022-06-29T06:21:25.53676583Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1725,11 +1752,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.5.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.5.2.tgz
     version: 3.5.2
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2022-06-24T21:07:20.615247+05:30"
+    created: "2022-06-29T06:21:25.526255296Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1741,11 +1768,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.5.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.5.1.tgz
     version: 3.5.1
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2022-06-24T21:07:20.607594+05:30"
+    created: "2022-06-29T06:21:25.515593959Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1757,11 +1784,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.5.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.5.0.tgz
     version: 3.5.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2022-06-24T21:07:20.599707+05:30"
+    created: "2022-06-29T06:21:25.504997824Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1773,11 +1800,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.4.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.4.2.tgz
     version: 3.4.2
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2022-06-24T21:07:20.591809+05:30"
+    created: "2022-06-29T06:21:25.494352088Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1789,11 +1816,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.4.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.4.1.tgz
     version: 3.4.1
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2022-06-24T21:07:20.583431+05:30"
+    created: "2022-06-29T06:21:25.483729852Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1805,11 +1832,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.4.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.4.0.tgz
     version: 3.4.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2022-06-24T21:07:20.57561+05:30"
+    created: "2022-06-29T06:21:25.471771399Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1821,11 +1848,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.3.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.3.0.tgz
     version: 3.3.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2022-06-24T21:07:20.568013+05:30"
+    created: "2022-06-29T06:21:25.460399553Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1837,11 +1864,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.2.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.2.0.tgz
     version: 3.2.0
   - apiVersion: v1
     appVersion: "19.09"
-    created: "2022-06-24T21:07:20.521362+05:30"
+    created: "2022-06-29T06:21:25.398643364Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1853,11 +1880,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.1.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.1.1.tgz
     version: 3.1.1
   - apiVersion: v1
     appVersion: v19.09
-    created: "2022-06-24T21:07:20.512935+05:30"
+    created: "2022-06-29T06:21:25.388599235Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1869,11 +1896,11 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.1.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.1.0.tgz
     version: 3.1.0
   - apiVersion: v1
     appVersion: v19.05
-    created: "2022-06-24T21:07:20.5049+05:30"
+    created: "2022-06-29T06:21:25.378895111Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1885,93 +1912,93 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-3.0.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-3.0.0.tgz
     version: 3.0.0
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2022-06-24T21:07:20.778306+05:30"
+    created: "2022-06-29T06:21:25.754421013Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 92a9a39e9854b28a21fff4abdb090261c4b7a466d91ddb0ec6bae0115c9fc48e
     name: galaxy-cvmfs-csi
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-cvmfs-csi-1.6.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-cvmfs-csi-1.6.1.tgz
     version: 1.6.1
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2022-06-24T21:07:20.777665+05:30"
+    created: "2022-06-29T06:21:25.753598703Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 14718b9baa62ccc1d4332132f20db2adf265594a6ac7f79c72f2c1e262d0572c
     name: galaxy-cvmfs-csi
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-cvmfs-csi-1.6.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-cvmfs-csi-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2022-06-24T21:07:20.775916+05:30"
+    created: "2022-06-29T06:21:25.752666691Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 4a52c7438b9b68b2ec6af9c09a892c3f87688a9a8e5e26897894093ae558ff50
     name: galaxy-cvmfs-csi
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-cvmfs-csi-1.5.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-cvmfs-csi-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2022-06-24T21:07:20.775093+05:30"
+    created: "2022-06-29T06:21:25.75184948Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 563198b78d178c9fd527a7a7f596876bf3f164ddffbb167524cedf63b0799b20
     name: galaxy-cvmfs-csi
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-cvmfs-csi-1.4.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-cvmfs-csi-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2022-06-24T21:07:20.774189+05:30"
+    created: "2022-06-29T06:21:25.75106007Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 8814a01f8b24b72b7f394df4355a146b9f83533752dd1763527fec4bbd6f5b2f
     name: galaxy-cvmfs-csi
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-cvmfs-csi-1.3.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-cvmfs-csi-1.3.2.tgz
     version: 1.3.2
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2022-06-24T21:07:20.773103+05:30"
+    created: "2022-06-29T06:21:25.75026066Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: f739ce727f8bffaff77622a6e3ebcafbc07643204a6072bc5a3cca809f4be695
     name: galaxy-cvmfs-csi
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-cvmfs-csi-1.3.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-cvmfs-csi-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2022-06-24T21:07:20.772506+05:30"
+    created: "2022-06-29T06:21:25.749573951Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 442684e7e912301e774cdd6376e249da443e488fdc6b6c0bec42e05c694330f6
     name: galaxy-cvmfs-csi
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-cvmfs-csi-1.1.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-cvmfs-csi-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-06-24T21:07:20.771859+05:30"
+    created: "2022-06-29T06:21:25.748914643Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: a4648dedfa70623b37ed6ea1fe332500149e17d87ce772315e484944ec2aa6b2
     name: galaxy-cvmfs-csi
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-cvmfs-csi-1.0.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-cvmfs-csi-1.0.1.tgz
     version: 1.0.1
   galaxy-stable:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-06-24T21:07:20.779797+05:30"
+    created: "2022-06-29T06:21:25.756094535Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1982,12 +2009,12 @@ entries:
     digest: daa7a037d8b39fd3fe31401686a36d7e0a58f69aaea1635c818231f52281f270
     name: galaxy-stable
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/galaxy-stable-2.0.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/galaxy-stable-2.0.0.tgz
     version: 2.0.0
   janisterminal:
   - apiVersion: v2
     appVersion: 0.9.5
-    created: "2022-06-24T21:07:20.780484+05:30"
+    created: "2022-06-29T06:21:25.756927445Z"
     dependencies:
     - name: proxyinjector
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -1997,12 +2024,12 @@ entries:
     name: janisterminal
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/janisterminal-0.1.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/janisterminal-0.1.0.tgz
     version: 0.1.0
   nextcloud:
   - apiVersion: v1
     appVersion: 17.0.0
-    created: "2022-06-24T21:07:20.791264+05:30"
+    created: "2022-06-29T06:21:25.777908913Z"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2038,11 +2065,11 @@ entries:
     sources:
     - https://github.com/nextcloud/docker
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/nextcloud-1.13.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/nextcloud-1.13.0.tgz
     version: 1.13.0
   - apiVersion: v1
     appVersion: 17.0.0
-    created: "2022-06-24T21:07:20.785079+05:30"
+    created: "2022-06-29T06:21:25.769105301Z"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2072,12 +2099,12 @@ entries:
     sources:
     - https://github.com/nextcloud/docker
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/nextcloud-1.11.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/nextcloud-1.11.1.tgz
     version: 1.11.1
   openstack-cinder-csi:
   - apiVersion: v1
     appVersion: latest
-    created: "2022-06-24T21:07:20.791998+05:30"
+    created: "2022-06-29T06:21:25.778533321Z"
     description: Cinder CSI Chart for OpenStack
     digest: b1bc380142c85f542a64294e2735b5b4ab51610d26c67daabbed99eef2a38980
     home: https://github.com/kubernetes/cloud-provider-openstack
@@ -2087,12 +2114,12 @@ entries:
       name: brtknr
     name: openstack-cinder-csi
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/openstack-cinder-csi-1.2.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/openstack-cinder-csi-1.2.0.tgz
     version: 1.2.0
   postgresql:
   - apiVersion: v1
     appVersion: 10.7.0
-    created: "2022-06-24T21:07:20.794251+05:30"
+    created: "2022-06-29T06:21:25.780244643Z"
     description: Chart for PostgreSQL, an object-relational database management system
       (ORDBMS) with an emphasis on extensibility and on standards-compliance.
     digest: 9fe4d7a1533308c051750571254b00aaaaed7926906508ad9887d6473d8bc5fb
@@ -2114,73 +2141,73 @@ entries:
     sources:
     - https://github.com/bitnami/bitnami-docker-postgresql
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/postgresql-4.0.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/postgresql-4.0.0.tgz
     version: 4.0.0
   projman:
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2022-06-24T21:07:20.796434+05:30"
+    created: "2022-06-29T06:21:25.78777394Z"
     description: PVC for shared filesystem within a CloudMan project
     digest: 9ea13b160e8f71f2a057330ca6f59dfda476527319134226f71aca49f0614847
     name: projman
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/projman-0.5.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/projman-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2022-06-24T21:07:20.796107+05:30"
+    created: "2022-06-29T06:21:25.78700993Z"
     description: PVC for shared filesystem within a CloudMan project
     digest: a882b62c65f36ffc7e465a9a87f0b029a5b05285dbdeab754ea3192c3b6a8a04
     name: projman
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/projman-0.4.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/projman-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-06-24T21:07:20.79574+05:30"
+    created: "2022-06-29T06:21:25.786060918Z"
     description: PVC for shared filesystem within a CloudMan project
     digest: 046ce4f6fd2fb53481dbf8d447125d08b39c6059894a495bddb656738d001a7f
     name: projman
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/projman-0.3.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/projman-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-06-24T21:07:20.795368+05:30"
+    created: "2022-06-29T06:21:25.781427258Z"
     description: PVC for shared filesystem within a CloudMan project
     digest: a3471cbf6db9bc976f3f4198c25ef90a4a85229e1aca657c375c4a7ce7d81f24
     name: projman
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/projman-0.2.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/projman-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-06-24T21:07:20.794989+05:30"
+    created: "2022-06-29T06:21:25.780968253Z"
     description: PVC for shared filesystem within a CloudMan project
     digest: 8c297572d38a8b62d30a726019b0c69da7d71dec6c0570e5103e6fab1360db44
     name: projman
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/projman-0.2.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/projman-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-06-24T21:07:20.794589+05:30"
+    created: "2022-06-29T06:21:25.780491446Z"
     description: PVC for shared filesystem within a CloudMan project
     digest: 43752a2689ab2d98b5e8db89e7fd6349d5883c586749ad6ead2bc55f12d79999
     name: projman
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/projman-0.1.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/projman-0.1.0.tgz
     version: 0.1.0
   prometheus:
   - apiVersion: v1
     appVersion: 2.2.1
-    created: "2022-06-24T21:07:20.800166+05:30"
+    created: "2022-06-29T06:21:25.794474025Z"
     dependencies:
     - condition: grafana.enabled
       name: grafana
@@ -2203,11 +2230,11 @@ entries:
     - https://github.com/prometheus/node_exporter
     - https://github.com/kubernetes/kube-state-metrics
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/prometheus-6.2.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/prometheus-6.2.1.tgz
     version: 6.2.1
   proxyinjector:
   - apiVersion: v1
-    created: "2022-06-24T21:07:20.800525+05:30"
+    created: "2022-06-29T06:21:25.79485173Z"
     description: ProxyInjector chart that runs on kubernetes
     digest: 2462537081b914fbdb7ac170f41e90b201e8be211a256167c33b58956d2001e4
     home: https://github.com/stakater/ProxyInjector
@@ -2220,125 +2247,125 @@ entries:
       name: Stakater
     name: proxyinjector
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/proxyinjector-v0.0.23.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/proxyinjector-v0.0.23.tgz
     version: v0.0.23
   public-html:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-24T21:07:20.80096+05:30"
+    created: "2022-06-29T06:21:25.795391437Z"
     description: A helm chart to share Public HTML files from a GVL project folder
     digest: 6117d4fb9ffa4c44de2cfd1e77623d4c9c0e6f257edc88f740ea321949bbc78b
     name: public-html
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/public-html-0.1.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/public-html-0.1.0.tgz
     version: 0.1.0
   pulsar:
   - apiVersion: v1
     appVersion: 0.9.0
-    created: "2022-06-24T21:07:20.801455+05:30"
+    created: "2022-06-29T06:21:25.795812142Z"
     description: A Python server application that allows a Galaxy server to run jobs
       on remote systems without requiring a shared mounted file systems.
     digest: 8ec38223bc87e203c5b8ceb03912f9fc7ebba17e8f859cf03e8b4a47ae733408
     name: pulsar
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/pulsar-0.1.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/pulsar-0.1.0.tgz
     version: 0.1.0
   rstudio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-24T21:07:20.805031+05:30"
+    created: "2022-06-29T06:21:25.800055197Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: a59b3a345b4bc4b64ed3189682b1142a8c304a58a8f037ba42f1e507a07f6540
     name: rstudio
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/rstudio-0.4.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/rstudio-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-24T21:07:20.804306+05:30"
+    created: "2022-06-29T06:21:25.79872818Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: 77b26f21f39c40d928453598111ef2b7e26582a228bfbac5ae5e8a85bf8b2535
     name: rstudio
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/rstudio-0.3.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/rstudio-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-24T21:07:20.80374+05:30"
+    created: "2022-06-29T06:21:25.798134572Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: 4114c7c0b4eee4385bb42623c05c99b1f5ed97dc4c1c805452493e3cd89c72dc
     name: rstudio
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/rstudio-0.2.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/rstudio-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-24T21:07:20.803174+05:30"
+    created: "2022-06-29T06:21:25.797544165Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: 98ba3c36e5bb4d5c3f3e672e300cb82ba185efeb5caa5f82a4436c7487a86e63
     name: rstudio
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/rstudio-0.2.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/rstudio-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-24T21:07:20.802456+05:30"
+    created: "2022-06-29T06:21:25.796978957Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: 8dda7044bd4c34192ac7952b06ed3706332666f7a054f479eb6514da0def98e4
     name: rstudio
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/rstudio-0.2.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/rstudio-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-24T21:07:20.801919+05:30"
+    created: "2022-06-29T06:21:25.796317649Z"
     description: A Helm chart for Kubernetes
     digest: 541f2ed291a11f25e67fd2747411421622feeab73ee87d0cae9fbe3caea87ada
     name: rstudio
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/rstudio-0.1.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/rstudio-0.1.0.tgz
     version: 0.1.0
   terminalman:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-06-24T21:07:20.808103+05:30"
+    created: "2022-06-29T06:21:25.805225963Z"
     description: TerminalMan exposes terminals over the webs and allow their management
     digest: db291e32dec9812f43f8e3ccee68d63ffe8d025719e1ec8602c1e79f1bd41320
     name: terminalman
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/terminalman-0.3.2.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/terminalman-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-06-24T21:07:20.807284+05:30"
+    created: "2022-06-29T06:21:25.804148649Z"
     description: TerminalMan exposes terminals over the webs and allow their management
     digest: a2753acf964d2ee38e029f8c7dccaf85cbf1829b2b7b6d096198dfda4bf764ce
     name: terminalman
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/terminalman-0.3.1.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/terminalman-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-06-24T21:07:20.806346+05:30"
+    created: "2022-06-29T06:21:25.803003834Z"
     description: TerminalMan exposes terminals over the webs and allow their management
     digest: 05b2ad01c79abd5f780d1eb84bc706dc8004ac5163ae2c61c69f0fd239c67d11
     name: terminalman
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/terminalman-0.3.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/terminalman-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-06-24T21:07:20.805802+05:30"
+    created: "2022-06-29T06:21:25.80188242Z"
     dependencies:
     - name: proxyinjector
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -2348,6 +2375,6 @@ entries:
     name: terminalman
     type: application
     urls:
-    - https://raw.githubusercontent.com/CloudVE/helm-charts/master/charts/terminalman-0.2.0.tgz
+    - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/terminalman-0.2.0.tgz
     version: 0.2.0
-generated: "2022-06-24T21:07:19.845871+05:30"
+generated: "2022-06-29T06:21:24.468709673Z"
