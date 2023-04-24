@@ -7,7 +7,7 @@ To update charts in this repo, place a copy of the packaged chart into
 the `charts` folder and (re)build `index.yaml` by running the following command
 from this repo's root:
 ```
-helm repo index . --url https://github.com/CloudVE/helm-charts/raw/master
+helm repo index . --url https://raw.githubusercontent.com/cloudve/helm-charts/master/
 ```
 
 To package a chart to start with, run the a command like the following from the
