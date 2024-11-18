@@ -3,7 +3,7 @@ entries:
   cloudlaunch:
   - apiVersion: v2
     appVersion: 2.0.2
-    created: "2024-11-01T18:03:12.986265588Z"
+    created: "2024-11-18T16:40:32.695714212Z"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -17,7 +17,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 2.0.2
-    created: "2024-11-01T18:03:12.96456986Z"
+    created: "2024-11-18T16:40:32.673639964Z"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -31,7 +31,7 @@ entries:
     version: 0.5.1
   - apiVersion: v2
     appVersion: 2.0.2
-    created: "2024-11-01T18:03:12.959834359Z"
+    created: "2024-11-18T16:40:32.668439024Z"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -45,7 +45,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2024-11-01T18:03:12.955143211Z"
+    created: "2024-11-18T16:40:32.663578027Z"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -59,7 +59,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2024-11-01T18:03:12.95086778Z"
+    created: "2024-11-18T16:40:32.658510989Z"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -73,7 +73,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2024-11-01T18:03:12.946681066Z"
+    created: "2024-11-18T16:40:32.655000779Z"
     dependencies:
     - name: cloudlaunch-server
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -87,7 +87,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2024-11-01T18:03:12.943168516Z"
+    created: "2024-11-18T16:40:32.651430119Z"
     dependencies:
     - name: cloudlaunch-server
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -102,7 +102,7 @@ entries:
   cloudlaunch-server:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2024-11-01T18:03:12.993788295Z"
+    created: "2024-11-18T16:40:32.702470919Z"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -120,7 +120,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2024-11-01T18:03:12.990244493Z"
+    created: "2024-11-18T16:40:32.698408902Z"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -139,7 +139,7 @@ entries:
   cloudlaunchserver:
   - apiVersion: v2
     appVersion: 2.0.2
-    created: "2024-11-01T18:03:13.018601719Z"
+    created: "2024-11-18T16:40:32.725668784Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -157,7 +157,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 2.0.2
-    created: "2024-11-01T18:03:13.011882323Z"
+    created: "2024-11-18T16:40:32.721095367Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -175,7 +175,7 @@ entries:
     version: 0.5.1
   - apiVersion: v2
     appVersion: 2.0.2
-    created: "2024-11-01T18:03:13.007088222Z"
+    created: "2024-11-18T16:40:32.715879795Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -193,7 +193,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2024-11-01T18:03:13.002249601Z"
+    created: "2024-11-18T16:40:32.71038204Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -211,7 +211,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2024-11-01T18:03:12.99787765Z"
+    created: "2024-11-18T16:40:32.705739255Z"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -230,7 +230,7 @@ entries:
   cloudman:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.119490142Z"
+    created: "2024-11-18T16:40:32.830250279Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -250,7 +250,7 @@ entries:
     version: 0.11.2
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.086370832Z"
+    created: "2024-11-18T16:40:32.794850625Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -270,7 +270,7 @@ entries:
     version: 0.10.2
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.066954369Z"
+    created: "2024-11-18T16:40:32.775289658Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -290,7 +290,7 @@ entries:
     version: 0.10.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.046602496Z"
+    created: "2024-11-18T16:40:32.754578905Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -310,7 +310,7 @@ entries:
     version: 0.10.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.549798151Z"
+    created: "2024-11-18T16:40:33.269614616Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -330,7 +330,7 @@ entries:
     version: 0.9.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.531340843Z"
+    created: "2024-11-18T16:40:33.248380897Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -350,7 +350,7 @@ entries:
     version: 0.9.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.512334257Z"
+    created: "2024-11-18T16:40:33.227416558Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -370,7 +370,7 @@ entries:
     version: 0.8.2
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.491841223Z"
+    created: "2024-11-18T16:40:33.205594244Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -390,7 +390,7 @@ entries:
     version: 0.8.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.472516228Z"
+    created: "2024-11-18T16:40:33.185559477Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -410,7 +410,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.453401203Z"
+    created: "2024-11-18T16:40:33.165535974Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -433,7 +433,7 @@ entries:
     version: 0.7.5
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.431326542Z"
+    created: "2024-11-18T16:40:33.143574606Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -456,7 +456,7 @@ entries:
     version: 0.6.5
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.410573171Z"
+    created: "2024-11-18T16:40:33.122251364Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -479,7 +479,7 @@ entries:
     version: 0.6.4
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.388280797Z"
+    created: "2024-11-18T16:40:33.099401091Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -502,7 +502,7 @@ entries:
     version: 0.6.3
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.356309167Z"
+    created: "2024-11-18T16:40:33.066207378Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -525,7 +525,7 @@ entries:
     version: 0.6.2
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.335162049Z"
+    created: "2024-11-18T16:40:33.04470082Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -548,7 +548,7 @@ entries:
     version: 0.6.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.31496904Z"
+    created: "2024-11-18T16:40:33.023835414Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -571,7 +571,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.293353182Z"
+    created: "2024-11-18T16:40:33.002720089Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -594,7 +594,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.271406675Z"
+    created: "2024-11-18T16:40:32.982312553Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -617,7 +617,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.249681134Z"
+    created: "2024-11-18T16:40:32.961427169Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -640,7 +640,7 @@ entries:
     version: 0.4.3
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.231274941Z"
+    created: "2024-11-18T16:40:32.941562633Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -663,7 +663,7 @@ entries:
     version: 0.4.2
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.212558699Z"
+    created: "2024-11-18T16:40:32.922338719Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -686,7 +686,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.193248141Z"
+    created: "2024-11-18T16:40:32.903595455Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -709,7 +709,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.174958617Z"
+    created: "2024-11-18T16:40:32.884302562Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -732,7 +732,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.155511497Z"
+    created: "2024-11-18T16:40:32.865192946Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -755,7 +755,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.13594335Z"
+    created: "2024-11-18T16:40:32.845921052Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -774,7 +774,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.127635424Z"
+    created: "2024-11-18T16:40:32.838025758Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -793,7 +793,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-11-01T18:03:13.025731762Z"
+    created: "2024-11-18T16:40:32.732935354Z"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master/
@@ -813,7 +813,7 @@ entries:
   csi-rclone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-11-01T18:03:13.550115966Z"
+    created: "2024-11-18T16:40:33.269924618Z"
     description: CSI plugin for rclone mount
     digest: 50c03a43f745f2896d169dd652d55023565bb8942ed63feffa83c60592ce00c7
     name: csi-rclone
@@ -823,7 +823,7 @@ entries:
   csi-s3:
   - apiVersion: v1
     appVersion: 0.35.3
-    created: "2024-11-01T18:03:13.551315671Z"
+    created: "2024-11-18T16:40:33.271179755Z"
     description: Container Storage Interface (CSI) driver for S3 volumes
     digest: 430f922c8ccde6342c2b2831da6acd2ab33666ebdff851eeea1f403e8acc7c13
     home: https://github.com/yandex-cloud/k8s-csi-s3
@@ -838,7 +838,7 @@ entries:
     version: 0.35.3
   - apiVersion: v1
     appVersion: 0.35.2
-    created: "2024-11-01T18:03:13.551015238Z"
+    created: "2024-11-18T16:40:33.270837362Z"
     description: Container Storage Interface (CSI) driver for S3 volumes
     digest: 134bf164ce09ad289695dffe9363a5c3da1cf03601911a760c11829581025fc3
     home: https://github.com/yandex-cloud/k8s-csi-s3
@@ -853,7 +853,7 @@ entries:
     version: 0.35.2
   - apiVersion: v1
     appVersion: 0.31.3
-    created: "2024-11-01T18:03:13.550713804Z"
+    created: "2024-11-18T16:40:33.270530626Z"
     description: Container Storage Interface (CSI) driver for S3 volumes
     digest: 1136bdc13702d8babe70c42ba222e5a795c144024c739eb27c07b9a3ddd2d96b
     home: https://github.com/yandex-cloud/k8s-csi-s3
@@ -868,7 +868,7 @@ entries:
     version: 0.31.3
   - apiVersion: v1
     appVersion: 0.30.9
-    created: "2024-11-01T18:03:13.550418922Z"
+    created: "2024-11-18T16:40:33.270235352Z"
     description: Container Storage Interface (CSI) driver for S3 volumes
     digest: 0841ee59f1b4e2e84ea81f80ecb4ba669a461ae8d4ceab355922088645e44089
     home: https://github.com/yandex-cloud/k8s-csi-s3
@@ -884,7 +884,7 @@ entries:
   ctrox-csi-s3:
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2024-11-01T18:03:13.551660055Z"
+    created: "2024-11-18T16:40:33.271555781Z"
     description: A Container Storage Interface for S3
     digest: c53546d925b21afe9f3fd6f49a1c0cf93b3f835299a93f289ae4fd304c1dd92e
     home: https://github.com/ctrox/csi-s3
@@ -901,7 +901,7 @@ entries:
   galaxy:
   - apiVersion: v2
     appVersion: 24.1.1
-    created: "2024-11-01T18:03:13.94257872Z"
+    created: "2024-11-18T16:40:33.679210648Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -933,7 +933,7 @@ entries:
       version: 4.3.25
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
-    digest: 584c6570d171e55486549f7475c84bb2a0c5c41334ea3c30de0d02a701d37bbc
+    digest: 739bc0b7444e49bbc567d2ed31fe98ef28caae5fca2c336b5d3044e8ed87391a
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     type: application
@@ -942,7 +942,7 @@ entries:
     version: 5.18.0
   - apiVersion: v2
     appVersion: 24.1.1
-    created: "2024-11-01T18:03:13.933001214Z"
+    created: "2024-11-18T16:40:33.669901432Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -983,7 +983,7 @@ entries:
     version: 5.17.0
   - apiVersion: v2
     appVersion: 24.1.1
-    created: "2024-11-01T18:03:13.925298054Z"
+    created: "2024-11-18T16:40:33.661505082Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1024,7 +1024,7 @@ entries:
     version: 5.16.0
   - apiVersion: v2
     appVersion: 24.1.1
-    created: "2024-11-01T18:03:13.917545002Z"
+    created: "2024-11-18T16:40:33.652644138Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1065,7 +1065,7 @@ entries:
     version: 5.15.2
   - apiVersion: v2
     appVersion: 24.1.1
-    created: "2024-11-01T18:03:13.90957388Z"
+    created: "2024-11-18T16:40:33.643959554Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1106,7 +1106,7 @@ entries:
     version: 5.15.1
   - apiVersion: v2
     appVersion: 24.1.1
-    created: "2024-11-01T18:03:13.901755186Z"
+    created: "2024-11-18T16:40:33.634655915Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1147,7 +1147,7 @@ entries:
     version: 5.15.0
   - apiVersion: v2
     appVersion: 24.0.2
-    created: "2024-11-01T18:03:13.893877749Z"
+    created: "2024-11-18T16:40:33.626569813Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1188,7 +1188,7 @@ entries:
     version: 5.14.3
   - apiVersion: v2
     appVersion: 24.0.2
-    created: "2024-11-01T18:03:13.885459603Z"
+    created: "2024-11-18T16:40:33.618343107Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1229,7 +1229,7 @@ entries:
     version: 5.14.2
   - apiVersion: v2
     appVersion: 24.0.2
-    created: "2024-11-01T18:03:13.877685917Z"
+    created: "2024-11-18T16:40:33.609640068Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1270,7 +1270,7 @@ entries:
     version: 5.14.1
   - apiVersion: v2
     appVersion: 24.0.2
-    created: "2024-11-01T18:03:13.869911509Z"
+    created: "2024-11-18T16:40:33.601692806Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1311,7 +1311,7 @@ entries:
     version: 5.14.0
   - apiVersion: v2
     appVersion: "23.1"
-    created: "2024-11-01T18:03:13.861924293Z"
+    created: "2024-11-18T16:40:33.593554154Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1352,7 +1352,7 @@ entries:
     version: 5.13.0
   - apiVersion: v2
     appVersion: "23.1"
-    created: "2024-11-01T18:03:13.853796547Z"
+    created: "2024-11-18T16:40:33.584569175Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1393,7 +1393,7 @@ entries:
     version: 5.12.1
   - apiVersion: v2
     appVersion: "23.1"
-    created: "2024-11-01T18:03:13.845171795Z"
+    created: "2024-11-18T16:40:33.57654467Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1434,7 +1434,7 @@ entries:
     version: 5.12.0
   - apiVersion: v2
     appVersion: "23.1"
-    created: "2024-11-01T18:03:13.837478943Z"
+    created: "2024-11-18T16:40:33.568558822Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1475,7 +1475,7 @@ entries:
     version: 5.11.0
   - apiVersion: v2
     appVersion: "23.1"
-    created: "2024-11-01T18:03:13.829714033Z"
+    created: "2024-11-18T16:40:33.560829092Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1516,7 +1516,7 @@ entries:
     version: 5.10.1
   - apiVersion: v2
     appVersion: "23.1"
-    created: "2024-11-01T18:03:13.821576953Z"
+    created: "2024-11-18T16:40:33.55218532Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1557,7 +1557,7 @@ entries:
     version: 5.10.0
   - apiVersion: v2
     appVersion: "23.1"
-    created: "2024-11-01T18:03:14.078730398Z"
+    created: "2024-11-18T16:40:33.8230426Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1598,7 +1598,7 @@ entries:
     version: 5.9.0
   - apiVersion: v2
     appVersion: "23.1"
-    created: "2024-11-01T18:03:14.070674835Z"
+    created: "2024-11-18T16:40:33.81508011Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1639,7 +1639,7 @@ entries:
     version: 5.8.0
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2024-11-01T18:03:14.062231766Z"
+    created: "2024-11-18T16:40:33.805838147Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1680,7 +1680,7 @@ entries:
     version: 5.7.6
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2024-11-01T18:03:14.055077528Z"
+    created: "2024-11-18T16:40:33.79857541Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1721,7 +1721,7 @@ entries:
     version: 5.7.5
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2024-11-01T18:03:14.046277655Z"
+    created: "2024-11-18T16:40:33.79027719Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1762,7 +1762,7 @@ entries:
     version: 5.7.4
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2024-11-01T18:03:14.039205221Z"
+    created: "2024-11-18T16:40:33.781831861Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1803,7 +1803,7 @@ entries:
     version: 5.7.3
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2024-11-01T18:03:14.031744557Z"
+    created: "2024-11-18T16:40:33.773646436Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1844,7 +1844,7 @@ entries:
     version: 5.7.2
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2024-11-01T18:03:14.024041643Z"
+    created: "2024-11-18T16:40:33.765461047Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1885,7 +1885,7 @@ entries:
     version: 5.7.1
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2024-11-01T18:03:14.016228696Z"
+    created: "2024-11-18T16:40:33.756672653Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1926,7 +1926,7 @@ entries:
     version: 5.7.0
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2024-11-01T18:03:14.008428457Z"
+    created: "2024-11-18T16:40:33.748230656Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -1967,7 +1967,7 @@ entries:
     version: 5.6.0
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2024-11-01T18:03:14.000074087Z"
+    created: "2024-11-18T16:40:33.739255146Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2008,7 +2008,7 @@ entries:
     version: 5.5.1
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2024-11-01T18:03:13.993209552Z"
+    created: "2024-11-18T16:40:33.732132643Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2049,7 +2049,7 @@ entries:
     version: 5.5.0
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2024-11-01T18:03:13.985577657Z"
+    created: "2024-11-18T16:40:33.724111418Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2090,7 +2090,7 @@ entries:
     version: 5.4.0
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2024-11-01T18:03:13.978201025Z"
+    created: "2024-11-18T16:40:33.716169399Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2124,7 +2124,7 @@ entries:
     version: 5.3.2
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2024-11-01T18:03:13.971175307Z"
+    created: "2024-11-18T16:40:33.708366048Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2158,7 +2158,7 @@ entries:
     version: 5.3.1
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2024-11-01T18:03:13.964093526Z"
+    created: "2024-11-18T16:40:33.702072232Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2192,7 +2192,7 @@ entries:
     version: 5.3.1-anvil.1
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2024-11-01T18:03:13.956934102Z"
+    created: "2024-11-18T16:40:33.694379518Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2226,7 +2226,7 @@ entries:
     version: 5.3.0
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2024-11-01T18:03:13.949867429Z"
+    created: "2024-11-18T16:40:33.686525158Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2260,7 +2260,7 @@ entries:
     version: 5.2.0
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2024-11-01T18:03:13.813542529Z"
+    created: "2024-11-18T16:40:33.543834621Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2287,7 +2287,7 @@ entries:
     version: 5.1.0
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2024-11-01T18:03:13.809413412Z"
+    created: "2024-11-18T16:40:33.539353611Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2321,7 +2321,7 @@ entries:
     version: 5.0.0
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2024-11-01T18:03:13.735766485Z"
+    created: "2024-11-18T16:40:33.462621009Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2348,7 +2348,7 @@ entries:
     version: 4.10.4
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2024-11-01T18:03:13.732150349Z"
+    created: "2024-11-18T16:40:33.45901042Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2375,7 +2375,7 @@ entries:
     version: 4.10.3
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2024-11-01T18:03:13.727681336Z"
+    created: "2024-11-18T16:40:33.454566439Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2402,7 +2402,7 @@ entries:
     version: 4.10.2
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2024-11-01T18:03:13.724084685Z"
+    created: "2024-11-18T16:40:33.450953546Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2429,7 +2429,7 @@ entries:
     version: 4.10.1
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2024-11-01T18:03:13.719781934Z"
+    created: "2024-11-18T16:40:33.446532896Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2456,7 +2456,7 @@ entries:
     version: 4.10.0
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2024-11-01T18:03:13.805591331Z"
+    created: "2024-11-18T16:40:33.53534827Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2483,7 +2483,7 @@ entries:
     version: 4.9.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.801302418Z"
+    created: "2024-11-18T16:40:33.530634186Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2510,7 +2510,7 @@ entries:
     version: 4.8.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.797723581Z"
+    created: "2024-11-18T16:40:33.52701958Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2537,7 +2537,7 @@ entries:
     version: 4.7.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.793428354Z"
+    created: "2024-11-18T16:40:33.522527509Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2564,7 +2564,7 @@ entries:
     version: 4.6.1
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.78979222Z"
+    created: "2024-11-18T16:40:33.518157095Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2591,7 +2591,7 @@ entries:
     version: 4.6.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.784962623Z"
+    created: "2024-11-18T16:40:33.514471365Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2618,7 +2618,7 @@ entries:
     version: 4.5.6
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.781272738Z"
+    created: "2024-11-18T16:40:33.510010729Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2645,7 +2645,7 @@ entries:
     version: 4.5.5
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.776657612Z"
+    created: "2024-11-18T16:40:33.506361637Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2672,7 +2672,7 @@ entries:
     version: 4.5.4
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.773126635Z"
+    created: "2024-11-18T16:40:33.501944681Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2699,7 +2699,7 @@ entries:
     version: 4.5.3
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.769747932Z"
+    created: "2024-11-18T16:40:33.498533827Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2726,7 +2726,7 @@ entries:
     version: 4.5.2
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.765597035Z"
+    created: "2024-11-18T16:40:33.494229979Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2753,7 +2753,7 @@ entries:
     version: 4.5.1
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.762224193Z"
+    created: "2024-11-18T16:40:33.49086438Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2776,7 +2776,7 @@ entries:
     version: 4.5.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.7580664Z"
+    created: "2024-11-18T16:40:33.486558706Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2799,7 +2799,7 @@ entries:
     version: 4.4.1
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.754814435Z"
+    created: "2024-11-18T16:40:33.483042124Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2822,7 +2822,7 @@ entries:
     version: 4.4.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.750571689Z"
+    created: "2024-11-18T16:40:33.478736627Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2845,7 +2845,7 @@ entries:
     version: 4.3.2
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.747292182Z"
+    created: "2024-11-18T16:40:33.475195769Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2868,7 +2868,7 @@ entries:
     version: 4.3.1
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.743098612Z"
+    created: "2024-11-18T16:40:33.470972873Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2891,7 +2891,7 @@ entries:
     version: 4.3.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.739792325Z"
+    created: "2024-11-18T16:40:33.467087348Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2914,7 +2914,7 @@ entries:
     version: 4.2.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.716217845Z"
+    created: "2024-11-18T16:40:33.442823101Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2937,7 +2937,7 @@ entries:
     version: 4.1.1
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.712105166Z"
+    created: "2024-11-18T16:40:33.438510581Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2960,7 +2960,7 @@ entries:
     version: 4.1.0
   - apiVersion: v2
     appVersion: "21.05"
-    created: "2024-11-01T18:03:13.708781085Z"
+    created: "2024-11-18T16:40:33.434479833Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -2983,7 +2983,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: "21.01"
-    created: "2024-11-01T18:03:13.704703756Z"
+    created: "2024-11-18T16:40:33.430214775Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -3006,7 +3006,7 @@ entries:
     version: 4.0.0-rc.1
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2024-11-01T18:03:13.612586833Z"
+    created: "2024-11-18T16:40:33.335741861Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3027,7 +3027,7 @@ entries:
     version: 3.11.0
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2024-11-01T18:03:13.58535706Z"
+    created: "2024-11-18T16:40:33.307876232Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3048,7 +3048,7 @@ entries:
     version: 3.10.10
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2024-11-01T18:03:13.609156695Z"
+    created: "2024-11-18T16:40:33.33115491Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3069,7 +3069,7 @@ entries:
     version: 3.10.9
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2024-11-01T18:03:13.604878022Z"
+    created: "2024-11-18T16:40:33.327773041Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3090,7 +3090,7 @@ entries:
     version: 3.10.8
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2024-11-01T18:03:13.601558821Z"
+    created: "2024-11-18T16:40:33.323214101Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3111,7 +3111,7 @@ entries:
     version: 3.10.7
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2024-11-01T18:03:13.597314739Z"
+    created: "2024-11-18T16:40:33.319760848Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3132,7 +3132,7 @@ entries:
     version: 3.10.6
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2024-11-01T18:03:13.593249953Z"
+    created: "2024-11-18T16:40:33.315119632Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3153,7 +3153,7 @@ entries:
     version: 3.10.5
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2024-11-01T18:03:13.588745922Z"
+    created: "2024-11-18T16:40:33.311573314Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3174,7 +3174,7 @@ entries:
     version: 3.10.4
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2024-11-01T18:03:13.701452352Z"
+    created: "2024-11-18T16:40:33.426825822Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3195,7 +3195,7 @@ entries:
     version: 3.9.4
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2024-11-01T18:03:13.696893264Z"
+    created: "2024-11-18T16:40:33.421890168Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3216,7 +3216,7 @@ entries:
     version: 3.8.4
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2024-11-01T18:03:13.693459919Z"
+    created: "2024-11-18T16:40:33.418251557Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3237,7 +3237,7 @@ entries:
     version: 3.6.0
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2024-11-01T18:03:13.689113002Z"
+    created: "2024-11-18T16:40:33.414760973Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3253,7 +3253,7 @@ entries:
     version: 3.5.4
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2024-11-01T18:03:13.680724789Z"
+    created: "2024-11-18T16:40:33.40626053Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3269,7 +3269,7 @@ entries:
     version: 3.5.3
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2024-11-01T18:03:13.67406302Z"
+    created: "2024-11-18T16:40:33.397986305Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3285,7 +3285,7 @@ entries:
     version: 3.5.2
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2024-11-01T18:03:13.666324743Z"
+    created: "2024-11-18T16:40:33.389872433Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3301,7 +3301,7 @@ entries:
     version: 3.5.1
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2024-11-01T18:03:13.659852929Z"
+    created: "2024-11-18T16:40:33.383316394Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3317,7 +3317,7 @@ entries:
     version: 3.5.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2024-11-01T18:03:13.653057587Z"
+    created: "2024-11-18T16:40:33.376868089Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3333,7 +3333,7 @@ entries:
     version: 3.4.2
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2024-11-01T18:03:13.643573006Z"
+    created: "2024-11-18T16:40:33.36859404Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3349,7 +3349,7 @@ entries:
     version: 3.4.1
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2024-11-01T18:03:13.637002641Z"
+    created: "2024-11-18T16:40:33.361299066Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3365,7 +3365,7 @@ entries:
     version: 3.4.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2024-11-01T18:03:13.629582359Z"
+    created: "2024-11-18T16:40:33.353235436Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3381,7 +3381,7 @@ entries:
     version: 3.3.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2024-11-01T18:03:13.622279013Z"
+    created: "2024-11-18T16:40:33.345475694Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3397,7 +3397,7 @@ entries:
     version: 3.2.0
   - apiVersion: v1
     appVersion: "19.09"
-    created: "2024-11-01T18:03:13.581938323Z"
+    created: "2024-11-18T16:40:33.304424221Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3413,7 +3413,7 @@ entries:
     version: 3.1.1
   - apiVersion: v1
     appVersion: v19.09
-    created: "2024-11-01T18:03:13.57457609Z"
+    created: "2024-11-18T16:40:33.296017988Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3429,7 +3429,7 @@ entries:
     version: 3.1.0
   - apiVersion: v1
     appVersion: v19.05
-    created: "2024-11-01T18:03:13.566971687Z"
+    created: "2024-11-18T16:40:33.287521317Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3445,7 +3445,7 @@ entries:
     version: 3.0.0
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2024-11-01T18:03:13.559380702Z"
+    created: "2024-11-18T16:40:33.279845305Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -3487,7 +3487,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v2
     appVersion: 2.3.2
-    created: "2024-11-01T18:03:14.089099552Z"
+    created: "2024-11-18T16:40:33.833102847Z"
     dependencies:
     - alias: cvmfscsi
       name: cvmfs-csi
@@ -3503,7 +3503,7 @@ entries:
     version: 2.5.1
   - apiVersion: v2
     appVersion: 2.3.2
-    created: "2024-11-01T18:03:14.088143593Z"
+    created: "2024-11-18T16:40:33.832159637Z"
     dependencies:
     - alias: cvmfscsi
       name: cvmfs-csi
@@ -3519,7 +3519,7 @@ entries:
     version: 2.5.0
   - apiVersion: v2
     appVersion: 2.3.2
-    created: "2024-11-01T18:03:14.086336011Z"
+    created: "2024-11-18T16:40:33.831231214Z"
     dependencies:
     - alias: cvmfscsi
       name: cvmfs-csi
@@ -3535,7 +3535,7 @@ entries:
     version: 2.4.0
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2024-11-01T18:03:14.085470141Z"
+    created: "2024-11-18T16:40:33.830349899Z"
     dependencies:
     - alias: cvmfscsi
       name: cvmfs-csi
@@ -3551,7 +3551,7 @@ entries:
     version: 2.2.0
   - apiVersion: v2
     appVersion: 2.1.2
-    created: "2024-11-01T18:03:14.084697204Z"
+    created: "2024-11-18T16:40:33.82955717Z"
     dependencies:
     - alias: cvmfscsi
       name: cvmfs-csi
@@ -3567,7 +3567,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-11-01T18:03:14.083862352Z"
+    created: "2024-11-18T16:40:33.828738683Z"
     dependencies:
     - alias: cvmfscsi
       name: cvmfs-csi
@@ -3583,7 +3583,7 @@ entries:
     version: 2.0.1
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-11-01T18:03:14.083124271Z"
+    created: "2024-11-18T16:40:33.827922731Z"
     dependencies:
     - alias: cvmfscsi
       name: cvmfs-csi
@@ -3599,7 +3599,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2024-11-01T18:03:14.082385498Z"
+    created: "2024-11-18T16:40:33.827123451Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 92a9a39e9854b28a21fff4abdb090261c4b7a466d91ddb0ec6bae0115c9fc48e
@@ -3609,7 +3609,7 @@ entries:
     version: 1.6.1
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2024-11-01T18:03:14.081856909Z"
+    created: "2024-11-18T16:40:33.826634773Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: c193aa79233c4e3525deb83a405e7f16dc5a63e2158ec59a3bb344cb76ffb75b
@@ -3619,7 +3619,7 @@ entries:
     version: 1.6.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2024-11-01T18:03:14.0813819Z"
+    created: "2024-11-18T16:40:33.826146637Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 4a52c7438b9b68b2ec6af9c09a892c3f87688a9a8e5e26897894093ae558ff50
@@ -3629,7 +3629,7 @@ entries:
     version: 1.5.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2024-11-01T18:03:14.080905529Z"
+    created: "2024-11-18T16:40:33.825644554Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 563198b78d178c9fd527a7a7f596876bf3f164ddffbb167524cedf63b0799b20
@@ -3639,7 +3639,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2024-11-01T18:03:14.080416183Z"
+    created: "2024-11-18T16:40:33.825160405Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 8814a01f8b24b72b7f394df4355a146b9f83533752dd1763527fec4bbd6f5b2f
@@ -3649,7 +3649,7 @@ entries:
     version: 1.3.2
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2024-11-01T18:03:14.079946825Z"
+    created: "2024-11-18T16:40:33.824668151Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: f739ce727f8bffaff77622a6e3ebcafbc07643204a6072bc5a3cca809f4be695
@@ -3659,7 +3659,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2024-11-01T18:03:14.079517852Z"
+    created: "2024-11-18T16:40:33.824227633Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 442684e7e912301e774cdd6376e249da443e488fdc6b6c0bec42e05c694330f6
@@ -3669,7 +3669,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-11-01T18:03:14.079140296Z"
+    created: "2024-11-18T16:40:33.823812253Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: a4648dedfa70623b37ed6ea1fe332500149e17d87ce772315e484944ec2aa6b2
@@ -3680,7 +3680,7 @@ entries:
   galaxy-stable:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-11-01T18:03:14.09013533Z"
+    created: "2024-11-18T16:40:33.83508712Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3696,7 +3696,7 @@ entries:
   janisterminal:
   - apiVersion: v2
     appVersion: 0.9.5
-    created: "2024-11-01T18:03:14.090658629Z"
+    created: "2024-11-18T16:40:33.835677629Z"
     dependencies:
     - name: proxyinjector
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -3711,7 +3711,7 @@ entries:
   nextcloud:
   - apiVersion: v1
     appVersion: 17.0.0
-    created: "2024-11-01T18:03:14.099634258Z"
+    created: "2024-11-18T16:40:33.84486894Z"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3751,7 +3751,7 @@ entries:
     version: 1.13.0
   - apiVersion: v1
     appVersion: 17.0.0
-    created: "2024-11-01T18:03:14.094201619Z"
+    created: "2024-11-18T16:40:33.839110003Z"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3786,7 +3786,7 @@ entries:
   openstack-cinder-csi:
   - apiVersion: v1
     appVersion: latest
-    created: "2024-11-01T18:03:14.099990254Z"
+    created: "2024-11-18T16:40:33.845235879Z"
     description: Cinder CSI Chart for OpenStack
     digest: b1bc380142c85f542a64294e2735b5b4ab51610d26c67daabbed99eef2a38980
     home: https://github.com/kubernetes/cloud-provider-openstack
@@ -3801,7 +3801,7 @@ entries:
   postgresql:
   - apiVersion: v1
     appVersion: 10.7.0
-    created: "2024-11-01T18:03:14.101009121Z"
+    created: "2024-11-18T16:40:33.846266534Z"
     description: Chart for PostgreSQL, an object-relational database management system
       (ORDBMS) with an emphasis on extensibility and on standards-compliance.
     digest: 9fe4d7a1533308c051750571254b00aaaaed7926906508ad9887d6473d8bc5fb
@@ -3828,7 +3828,7 @@ entries:
   projman:
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2024-11-01T18:03:14.102789632Z"
+    created: "2024-11-18T16:40:33.847657877Z"
     description: PVC for shared filesystem within a CloudMan project
     digest: 9ea13b160e8f71f2a057330ca6f59dfda476527319134226f71aca49f0614847
     name: projman
@@ -3838,7 +3838,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2024-11-01T18:03:14.102177166Z"
+    created: "2024-11-18T16:40:33.847429187Z"
     description: PVC for shared filesystem within a CloudMan project
     digest: a882b62c65f36ffc7e465a9a87f0b029a5b05285dbdeab754ea3192c3b6a8a04
     name: projman
@@ -3848,7 +3848,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-11-01T18:03:14.101882926Z"
+    created: "2024-11-18T16:40:33.847161805Z"
     description: PVC for shared filesystem within a CloudMan project
     digest: 046ce4f6fd2fb53481dbf8d447125d08b39c6059894a495bddb656738d001a7f
     name: projman
@@ -3858,7 +3858,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-11-01T18:03:14.101696607Z"
+    created: "2024-11-18T16:40:33.846947844Z"
     description: PVC for shared filesystem within a CloudMan project
     digest: a3471cbf6db9bc976f3f4198c25ef90a4a85229e1aca657c375c4a7ce7d81f24
     name: projman
@@ -3868,7 +3868,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-11-01T18:03:14.101440969Z"
+    created: "2024-11-18T16:40:33.846697213Z"
     description: PVC for shared filesystem within a CloudMan project
     digest: 8c297572d38a8b62d30a726019b0c69da7d71dec6c0570e5103e6fab1360db44
     name: projman
@@ -3878,7 +3878,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-11-01T18:03:14.101178117Z"
+    created: "2024-11-18T16:40:33.846436273Z"
     description: PVC for shared filesystem within a CloudMan project
     digest: 43752a2689ab2d98b5e8db89e7fd6349d5883c586749ad6ead2bc55f12d79999
     name: projman
@@ -3889,7 +3889,7 @@ entries:
   prometheus:
   - apiVersion: v1
     appVersion: 2.2.1
-    created: "2024-11-01T18:03:14.105968548Z"
+    created: "2024-11-18T16:40:33.851193132Z"
     dependencies:
     - condition: grafana.enabled
       name: grafana
@@ -3916,7 +3916,7 @@ entries:
     version: 6.2.1
   proxyinjector:
   - apiVersion: v1
-    created: "2024-11-01T18:03:14.106259562Z"
+    created: "2024-11-18T16:40:33.851459202Z"
     description: ProxyInjector chart that runs on kubernetes
     digest: 2462537081b914fbdb7ac170f41e90b201e8be211a256167c33b58956d2001e4
     home: https://github.com/stakater/ProxyInjector
@@ -3934,7 +3934,7 @@ entries:
   public-html:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-11-01T18:03:14.106580994Z"
+    created: "2024-11-18T16:40:33.851789953Z"
     description: A helm chart to share Public HTML files from a GVL project folder
     digest: 6117d4fb9ffa4c44de2cfd1e77623d4c9c0e6f257edc88f740ea321949bbc78b
     name: public-html
@@ -3945,7 +3945,7 @@ entries:
   pulsar:
   - apiVersion: v1
     appVersion: 0.9.0
-    created: "2024-11-01T18:03:14.106820552Z"
+    created: "2024-11-18T16:40:33.852036696Z"
     description: A Python server application that allows a Galaxy server to run jobs
       on remote systems without requiring a shared mounted file systems.
     digest: 8ec38223bc87e203c5b8ceb03912f9fc7ebba17e8f859cf03e8b4a47ae733408
@@ -3956,7 +3956,7 @@ entries:
   rstudio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-01T18:03:14.108843728Z"
+    created: "2024-11-18T16:40:33.854070044Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: a59b3a345b4bc4b64ed3189682b1142a8c304a58a8f037ba42f1e507a07f6540
     name: rstudio
@@ -3966,7 +3966,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-01T18:03:14.108513801Z"
+    created: "2024-11-18T16:40:33.853738982Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: 77b26f21f39c40d928453598111ef2b7e26582a228bfbac5ae5e8a85bf8b2535
     name: rstudio
@@ -3976,7 +3976,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-01T18:03:14.108147034Z"
+    created: "2024-11-18T16:40:33.85337576Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: 4114c7c0b4eee4385bb42623c05c99b1f5ed97dc4c1c805452493e3cd89c72dc
     name: rstudio
@@ -3986,7 +3986,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-01T18:03:14.107775158Z"
+    created: "2024-11-18T16:40:33.853008711Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: 98ba3c36e5bb4d5c3f3e672e300cb82ba185efeb5caa5f82a4436c7487a86e63
     name: rstudio
@@ -3996,7 +3996,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-01T18:03:14.107436385Z"
+    created: "2024-11-18T16:40:33.852669985Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: 8dda7044bd4c34192ac7952b06ed3706332666f7a054f479eb6514da0def98e4
     name: rstudio
@@ -4006,7 +4006,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-01T18:03:14.10710249Z"
+    created: "2024-11-18T16:40:33.852326561Z"
     description: A Helm chart for Kubernetes
     digest: 541f2ed291a11f25e67fd2747411421622feeab73ee87d0cae9fbe3caea87ada
     name: rstudio
@@ -4017,7 +4017,7 @@ entries:
   terminalman:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-01T18:03:14.111366852Z"
+    created: "2024-11-18T16:40:33.855719711Z"
     description: TerminalMan exposes terminals over the webs and allow their management
     digest: db291e32dec9812f43f8e3ccee68d63ffe8d025719e1ec8602c1e79f1bd41320
     name: terminalman
@@ -4027,7 +4027,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-01T18:03:14.110993503Z"
+    created: "2024-11-18T16:40:33.855341551Z"
     description: TerminalMan exposes terminals over the webs and allow their management
     digest: a2753acf964d2ee38e029f8c7dccaf85cbf1829b2b7b6d096198dfda4bf764ce
     name: terminalman
@@ -4037,7 +4037,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-01T18:03:14.110605728Z"
+    created: "2024-11-18T16:40:33.854919108Z"
     description: TerminalMan exposes terminals over the webs and allow their management
     digest: 05b2ad01c79abd5f780d1eb84bc706dc8004ac5163ae2c61c69f0fd239c67d11
     name: terminalman
@@ -4047,7 +4047,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-01T18:03:14.110150616Z"
+    created: "2024-11-18T16:40:33.854573469Z"
     dependencies:
     - name: proxyinjector
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -4059,4 +4059,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/cloudve/helm-charts/master/charts/terminalman-0.2.0.tgz
     version: 0.2.0
-generated: "2024-11-01T18:03:12.939890512Z"
+generated: "2024-11-18T16:40:32.648125755Z"
