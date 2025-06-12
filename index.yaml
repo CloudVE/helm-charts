@@ -3,7 +3,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2025-06-12T15:01:07.360293836Z"
+    created: "2025-06-12T17:36:49.03954054Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -26,7 +26,7 @@ entries:
   galaxy:
   - apiVersion: v2
     appVersion: 24.1.2.dev0
-    created: "2025-06-12T15:01:07.409212802Z"
+    created: "2025-06-12T17:36:49.086867666Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -67,7 +67,7 @@ entries:
     version: 5.15.0-anvil.1
   - apiVersion: v2
     appVersion: "24.0"
-    created: "2025-06-12T15:01:07.486846033Z"
+    created: "2025-06-12T17:36:49.161871869Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -108,7 +108,7 @@ entries:
     version: 5.9.0-anvil.1
   - apiVersion: v2
     appVersion: "23.1"
-    created: "2025-06-12T15:01:07.479421024Z"
+    created: "2025-06-12T17:36:49.154242678Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -149,7 +149,7 @@ entries:
     version: 5.7.6-anvil.1
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2025-06-12T15:01:07.471774348Z"
+    created: "2025-06-12T17:36:49.146699607Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -190,7 +190,7 @@ entries:
     version: 5.7.1-anvil.2
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2025-06-12T15:01:07.463650859Z"
+    created: "2025-06-12T17:36:49.139029136Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -231,7 +231,7 @@ entries:
     version: 5.7.1-anvil.1
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2025-06-12T15:01:07.45491335Z"
+    created: "2025-06-12T17:36:49.13150444Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -272,7 +272,7 @@ entries:
     version: 5.7.0-anvil.1
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.447443208Z"
+    created: "2025-06-12T17:36:49.123974979Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -313,7 +313,7 @@ entries:
     version: 5.4.0-anvil.3
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.439978004Z"
+    created: "2025-06-12T17:36:49.116442348Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -354,7 +354,7 @@ entries:
     version: 5.4.0-anvil.2
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.432087719Z"
+    created: "2025-06-12T17:36:49.108836726Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -395,7 +395,7 @@ entries:
     version: 5.4.0-anvil.1
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.424214296Z"
+    created: "2025-06-12T17:36:49.101360136Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -429,7 +429,7 @@ entries:
     version: 5.3.1-anvil.1
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.416947785Z"
+    created: "2025-06-12T17:36:49.094445737Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.enabled
@@ -463,7 +463,7 @@ entries:
     version: 5.2.0-anvil.1
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2025-06-12T15:01:07.400108614Z"
+    created: "2025-06-12T17:36:49.078945215Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.enabled
@@ -490,7 +490,7 @@ entries:
     version: 5.0.0-anvil.1
   - apiVersion: v1
     appVersion: "21.09"
-    created: "2025-06-12T15:01:07.396025688Z"
+    created: "2025-06-12T17:36:49.074447202Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -518,7 +518,7 @@ entries:
     version: 4.9.0
   - apiVersion: v1
     appVersion: "21.09"
-    created: "2025-06-12T15:01:07.391039579Z"
+    created: "2025-06-12T17:36:49.070163189Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -539,7 +539,7 @@ entries:
     version: 4.8.0
   - apiVersion: v1
     appVersion: "21.09"
-    created: "2025-06-12T15:01:07.387064515Z"
+    created: "2025-06-12T17:36:49.065498175Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -560,7 +560,7 @@ entries:
     version: 4.6.0
   - apiVersion: v1
     appVersion: "21.05"
-    created: "2025-06-12T15:01:07.381963604Z"
+    created: "2025-06-12T17:36:49.06159046Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -581,7 +581,7 @@ entries:
     version: 4.5.5
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2025-06-12T15:01:07.378032303Z"
+    created: "2025-06-12T17:36:49.057425902Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -602,7 +602,7 @@ entries:
     version: 4.0.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2025-06-12T15:01:07.374443406Z"
+    created: "2025-06-12T17:36:49.053778327Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -618,7 +618,7 @@ entries:
     version: 3.4.2
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2025-06-12T15:01:07.366962613Z"
+    created: "2025-06-12T17:36:49.046462445Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -635,7 +635,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2025-06-12T15:01:07.489121473Z"
+    created: "2025-06-12T17:36:49.163283146Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 492699bfaa36507c4704b56c24e8af668cba615e20ded171a96a7d5e4f5121ed
@@ -645,7 +645,7 @@ entries:
     version: 1.4.1
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2025-06-12T15:01:07.488430463Z"
+    created: "2025-06-12T17:36:49.162821897Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 8b02d7a447724c4bc209dc255bd199b6c0794b846c4a4212a7394ab3addb5b2f
@@ -655,7 +655,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2025-06-12T15:01:07.48733879Z"
+    created: "2025-06-12T17:36:49.162344058Z"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 32a5c3dd814f03b61621b84e0a84d32cbbfcef32e3a2d99127004adbcbfd59f1
@@ -666,7 +666,7 @@ entries:
   galaxykubeman:
   - apiVersion: v2
     appVersion: "25.0"
-    created: "2025-06-12T15:01:07.916005841Z"
+    created: "2025-06-12T17:36:49.572789313Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -677,7 +677,7 @@ entries:
       version: ~16.6.6
     description: A chart for deploying and managing a single Galaxy out-of-the-box
       instance on Managed Kubernetes clusters (GKE)
-    digest: e7d439853764c14f6529ea5753d9dc14e241b8c55cdc4414cd094ebaeea76621
+    digest: dd3d202698e8d0af9f4a82da3aa102ca0708c29609717e3c1ac14fb457773194
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxykubeman
     type: application
@@ -686,7 +686,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: 24.2.0
-    created: "2025-06-12T15:01:07.909745385Z"
+    created: "2025-06-12T17:36:49.566777077Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -706,7 +706,7 @@ entries:
     version: 3.0.1
   - apiVersion: v2
     appVersion: 24.2.0
-    created: "2025-06-12T15:01:07.897061727Z"
+    created: "2025-06-12T17:36:49.5549538Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -726,7 +726,7 @@ entries:
     version: 3.0.0
   - apiVersion: v2
     appVersion: 24.1.2.dev0
-    created: "2025-06-12T15:01:07.743474087Z"
+    created: "2025-06-12T17:36:49.406245027Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -757,7 +757,7 @@ entries:
     version: 2.11.0
   - apiVersion: v2
     appVersion: 24.1.2.dev0
-    created: "2025-06-12T15:01:07.735915367Z"
+    created: "2025-06-12T17:36:49.399089659Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -788,7 +788,7 @@ entries:
     version: 2.10.0
   - apiVersion: v2
     appVersion: "24.0"
-    created: "2025-06-12T15:01:07.881012762Z"
+    created: "2025-06-12T17:36:49.542169068Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -819,7 +819,7 @@ entries:
     version: 2.9.0
   - apiVersion: v2
     appVersion: "23.1"
-    created: "2025-06-12T15:01:07.875582178Z"
+    created: "2025-06-12T17:36:49.536210285Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -850,7 +850,7 @@ entries:
     version: 2.8.1
   - apiVersion: v2
     appVersion: "23.1"
-    created: "2025-06-12T15:01:07.869093976Z"
+    created: "2025-06-12T17:36:49.529945221Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -881,7 +881,7 @@ entries:
     version: 2.8.0
   - apiVersion: v2
     appVersion: "23.1"
-    created: "2025-06-12T15:01:07.861964614Z"
+    created: "2025-06-12T17:36:49.524048364Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -912,7 +912,7 @@ entries:
     version: 2.7.0
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2025-06-12T15:01:07.856213194Z"
+    created: "2025-06-12T17:36:49.517999937Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -943,7 +943,7 @@ entries:
     version: 2.6.0
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2025-06-12T15:01:07.849097661Z"
+    created: "2025-06-12T17:36:49.512120849Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -974,7 +974,7 @@ entries:
     version: 2.5.2
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2025-06-12T15:01:07.843911497Z"
+    created: "2025-06-12T17:36:49.505986406Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1005,7 +1005,7 @@ entries:
     version: 2.5.1
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2025-06-12T15:01:07.83787528Z"
+    created: "2025-06-12T17:36:49.500001364Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1036,7 +1036,7 @@ entries:
     version: 2.5.0
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.831707291Z"
+    created: "2025-06-12T17:36:49.494334977Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1067,7 +1067,7 @@ entries:
     version: 2.4.9
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.825529197Z"
+    created: "2025-06-12T17:36:49.488368155Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1098,7 +1098,7 @@ entries:
     version: 2.4.8
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.819301482Z"
+    created: "2025-06-12T17:36:49.482902158Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1129,7 +1129,7 @@ entries:
     version: 2.4.7
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.813302597Z"
+    created: "2025-06-12T17:36:49.476195332Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1160,7 +1160,7 @@ entries:
     version: 2.4.6
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.807406557Z"
+    created: "2025-06-12T17:36:49.470157982Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1191,7 +1191,7 @@ entries:
     version: 2.4.5
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.801569699Z"
+    created: "2025-06-12T17:36:49.4648707Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1222,7 +1222,7 @@ entries:
     version: 2.4.4
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.795684168Z"
+    created: "2025-06-12T17:36:49.458232252Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1253,7 +1253,7 @@ entries:
     version: 2.4.3
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.789873974Z"
+    created: "2025-06-12T17:36:49.452356246Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1284,7 +1284,7 @@ entries:
     version: 2.4.2
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.784683783Z"
+    created: "2025-06-12T17:36:49.446363085Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1315,7 +1315,7 @@ entries:
     version: 2.4.1
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.778405891Z"
+    created: "2025-06-12T17:36:49.440522475Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1346,7 +1346,7 @@ entries:
     version: 2.4.0
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.771884152Z"
+    created: "2025-06-12T17:36:49.435464475Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1366,7 +1366,7 @@ entries:
     version: 2.3.1
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.762403973Z"
+    created: "2025-06-12T17:36:49.42494824Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1386,7 +1386,7 @@ entries:
     version: 2.3.0
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.752636474Z"
+    created: "2025-06-12T17:36:49.41535499Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1406,7 +1406,7 @@ entries:
     version: 2.2.0
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-06-12T15:01:07.729440765Z"
+    created: "2025-06-12T17:36:49.393057478Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1426,7 +1426,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2025-06-12T15:01:07.71975466Z"
+    created: "2025-06-12T17:36:49.383953132Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1446,7 +1446,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "21.09"
-    created: "2025-06-12T15:01:07.712508489Z"
+    created: "2025-06-12T17:36:49.377233049Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1464,7 +1464,7 @@ entries:
     version: 1.6.3
   - apiVersion: v2
     appVersion: "21.09"
-    created: "2025-06-12T15:01:07.705486039Z"
+    created: "2025-06-12T17:36:49.369738355Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1483,7 +1483,7 @@ entries:
     version: 1.6.3-anvil.4
   - apiVersion: v1
     appVersion: "21.09"
-    created: "2025-06-12T15:01:07.698922783Z"
+    created: "2025-06-12T17:36:49.363058951Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1501,7 +1501,7 @@ entries:
     version: 1.6.2
   - apiVersion: v1
     appVersion: "21.09"
-    created: "2025-06-12T15:01:07.691755102Z"
+    created: "2025-06-12T17:36:49.355823004Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1523,7 +1523,7 @@ entries:
     version: 1.6.1
   - apiVersion: v1
     appVersion: "21.09"
-    created: "2025-06-12T15:01:07.684946464Z"
+    created: "2025-06-12T17:36:49.348004589Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1545,7 +1545,7 @@ entries:
     version: 1.6.0
   - apiVersion: v1
     appVersion: "21.09"
-    created: "2025-06-12T15:01:07.677168435Z"
+    created: "2025-06-12T17:36:49.34127334Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1567,7 +1567,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: "21.09"
-    created: "2025-06-12T15:01:07.669726036Z"
+    created: "2025-06-12T17:36:49.333974238Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1589,7 +1589,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: "21.09"
-    created: "2025-06-12T15:01:07.662194655Z"
+    created: "2025-06-12T17:36:49.326440232Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1611,7 +1611,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: "21.05"
-    created: "2025-06-12T15:01:07.654710387Z"
+    created: "2025-06-12T17:36:49.319017253Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1633,7 +1633,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2025-06-12T15:01:07.648236858Z"
+    created: "2025-06-12T17:36:49.312442122Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1655,7 +1655,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2025-06-12T15:01:07.64161373Z"
+    created: "2025-06-12T17:36:49.306728087Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1677,7 +1677,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2025-06-12T15:01:07.632608066Z"
+    created: "2025-06-12T17:36:49.297035053Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1699,7 +1699,7 @@ entries:
     version: 0.7.3
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2025-06-12T15:01:07.622185324Z"
+    created: "2025-06-12T17:36:49.288677422Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1721,7 +1721,7 @@ entries:
     version: 0.7.2
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2025-06-12T15:01:07.61203769Z"
+    created: "2025-06-12T17:36:49.279167236Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1743,7 +1743,7 @@ entries:
     version: 0.7.1
   - apiVersion: v1
     appVersion: "20.09"
-    created: "2025-06-12T15:01:07.601771996Z"
+    created: "2025-06-12T17:36:49.271165818Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1765,7 +1765,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2025-06-12T15:01:07.590433675Z"
+    created: "2025-06-12T17:36:49.262221161Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1787,7 +1787,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2025-06-12T15:01:07.582294608Z"
+    created: "2025-06-12T17:36:49.254300223Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1809,7 +1809,7 @@ entries:
     version: 0.5.4
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2025-06-12T15:01:07.573443872Z"
+    created: "2025-06-12T17:36:49.24515578Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1831,7 +1831,7 @@ entries:
     version: 0.5.3
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2025-06-12T15:01:07.564077919Z"
+    created: "2025-06-12T17:36:49.23707559Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1853,7 +1853,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2025-06-12T15:01:07.555762327Z"
+    created: "2025-06-12T17:36:49.228386024Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1875,7 +1875,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2025-06-12T15:01:07.54673089Z"
+    created: "2025-06-12T17:36:49.220835426Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1897,7 +1897,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2025-06-12T15:01:07.538302242Z"
+    created: "2025-06-12T17:36:49.212366166Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1919,7 +1919,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: "20.05"
-    created: "2025-06-12T15:01:07.529562208Z"
+    created: "2025-06-12T17:36:49.204564341Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1941,7 +1941,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2025-06-12T15:01:07.52157437Z"
+    created: "2025-06-12T17:36:49.196081985Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1963,7 +1963,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2025-06-12T15:01:07.512576719Z"
+    created: "2025-06-12T17:36:49.187040247Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -1985,7 +1985,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2025-06-12T15:01:07.497011906Z"
+    created: "2025-06-12T17:36:49.17293385Z"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -2008,7 +2008,7 @@ entries:
   nfs-server-provisioner:
   - apiVersion: v1
     appVersion: 2.3.0
-    created: "2025-06-12T15:01:07.91651519Z"
+    created: "2025-06-12T17:36:49.573281028Z"
     description: nfs-server-provisioner is an out-of-tree dynamic provisioner for
       Kubernetes. You can use it to quickly & easily deploy shared storage that works
       almost anywhere.
@@ -2032,4 +2032,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/cloudve/helm-charts/anvil/charts/nfs-server-provisioner-1.1.2.tgz
     version: 1.1.2
-generated: "2025-06-12T15:01:07.351631901Z"
+generated: "2025-06-12T17:36:49.031978038Z"
