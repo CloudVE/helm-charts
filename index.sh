@@ -19,4 +19,5 @@ while [[ $# -gt 0 ]] ; do
 	esac
 	shift
 done
+echo "Generating the Helm index for the $BRANCH branch in the $REPO repository"
 helm repo index . --url https://raw.githubusercontent.com/$REPO/helm-charts/$BRANCH/
